@@ -1,7 +1,7 @@
 KiBot installation checker
 
 Core:
-Linux: 5.15.0.1031 (Linux 5768435ea635 5.15.0-1031-azure #38-Ubuntu SMP Mon Jan 9 12:49:59 UTC 2023 x86_64 GNU/Linux)
+Linux: 5.15.0.1031 (Linux d7b4dabb53ae 5.15.0-1031-azure #38-Ubuntu SMP Mon Jan 9 12:49:59 UTC 2023 x86_64 GNU/Linux)
   /bin/uname
 Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
   /usr/lib/python3.9/os.py
@@ -9,7 +9,7 @@ Python: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
 KiCad: 6.0.10+dfsg-1~bpo11+1
   /usr/lib/python3/dist-packages/pcbnew.py
   /usr/bin/kicad
-Kibot: 1.5.1
+Kibot: 1.6.0
   /usr/lib/python3/dist-packages/kibot/__main__.py
   /usr/bin/kibot
 
@@ -36,9 +36,13 @@ numpy: 1.19.5
   /usr/lib/python3/dist-packages/numpy/__init__.py
 
 Tools:
+Bash: 5.1.4 (GNU bash, version 5.1.4(1)-release (x86_64-pc-linux-gnu))
+  /bin/bash
+Blender: 3.4.1 (Blender 3.4.1)
+  /usr/bin/blender
 Ghostscript: 9.53.3
   /usr/bin/gs
-Git: 2.34.1 (git version 2.34.1)
+Git: 2.39.1 (git version 2.39.1)
   /usr/bin/git
 ImageMagick: 6.9.11.60 (Version: ImageMagick 6.9.11-60 Q16 x86_64 2021-01-25 https://imagemagick.org)
   /usr/bin/convert
