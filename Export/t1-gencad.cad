@@ -1,8 +1,8 @@
 $HEADER
 GENCAD 1.4
-USER "pcbnew 6.0.10+dfsg-1~bpo11+1"
+USER "pcbnew 6.0.11+dfsg-1~bpo11+1"
 DRAWING "/__w/kibot_variants_arduprog/kibot_variants_arduprog/t1.kicad_pcb"
-REVISION "${git_hash} "
+REVISION "${git_hash} ${date}"
 UNITS INCH
 ORIGIN 0 0
 INTERTRACK 0
