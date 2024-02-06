@@ -19,8 +19,8 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 Project info:
 Schematic:,t1
 Variant:,default
-Revision:,${git_hash}
-Date:,${date}
+Revision:,WIP
+Date:,Today
 KiCad Version:,7.0.10-7.0.10~ubuntu23.04.1
 Statistics:
 Component Groups:,21

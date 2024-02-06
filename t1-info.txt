@@ -1,7 +1,7 @@
 KiBot installation checker
 
 Core:
-Linux: 6.2.0.1019 (Linux 70ebf9a10762 6.2.0-1019-azure #19~22.04.1-Ubuntu SMP Wed Jan 10 22:57:03 UTC 2024 x86_64 GNU/Linux)
+Linux: 6.2.0.1019 (Linux c3331ff31b74 6.2.0-1019-azure #19~22.04.1-Ubuntu SMP Wed Jan 10 22:57:03 UTC 2024 x86_64 GNU/Linux)
   /usr/bin/uname
 Python: 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
   /usr/lib/python3.11/os.py
@@ -136,6 +136,8 @@ RUNNER_TEMP
 RUNNER_TOOL_CACHE
 RUNNER_WORKSPACE
 TZ
+date
+git_hash
 
 KiAuto:
 This is KiAuto v2.2.8
