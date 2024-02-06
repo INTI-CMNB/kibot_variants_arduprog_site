@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.049999999999999996,
@@ -126,7 +127,8 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": []
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
@@ -143,7 +145,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -157,10 +159,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -174,50 +176,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_0-Net-(J6-Pad5)",
-          "Board_0-Net-(J3-Pad3)",
-          "Board_0-Net-(J4-Pad3)",
-          "Board_0-Earth",
-          "Board_0-Net-(J6-Pad2)",
-          "Board_0-/MISO2",
-          "Board_0-Net-(J3-Pad1)",
-          "Board_0-Net-(J6-Pad3)",
-          "Board_0-/TXLED",
-          "Board_0-Net-(J3-Pad5)",
-          "Board_0-Net-(J3-Pad2)",
-          "Board_0-+5V",
-          "Board_0-Net-(U1-Pad14)",
-          "Board_0-Net-(J3-Pad4)",
-          "Board_0-/DTR",
-          "Board_0-Net-(J4-Pad1)",
-          "Board_0-/RXLED",
-          "Board_0-/SCK2",
-          "Board_0-Net-(C5-Pad1)",
-          "Board_0-Net-(D2-Pad2)",
-          "Board_0-Net-(C3-Pad1)",
-          "Board_0-Net-(FB1-Pad1)",
-          "Board_0-/MOSI2",
-          "Board_0-Net-(C8-Pad2)",
-          "Board_0-Net-(D3-Pad2)",
-          "Board_0-Net-(R1-Pad1)",
-          "Board_0-/RESET2",
-          "Board_0-GND",
-          "Board_0-Net-(F1-Pad2)",
-          "Board_0-Net-(J2-Pad3)",
-          "Board_0-VBUS",
-          "Board_0-Net-(J6-Pad4)",
-          "Board_0-Net-(J6-Pad6)",
-          "Board_0-Net-(C4-Pad1)",
-          "Board_0-Net-(J4-Pad4)",
-          "Board_0-Net-(J2-Pad2)",
-          "Board_0-Net-(R2-Pad1)",
-          "Board_0-Net-(J4-Pad2)"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -231,50 +193,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_1-Net-(J3-Pad2)",
-          "Board_1-Net-(D3-Pad2)",
-          "Board_1-/TXLED",
-          "Board_1-Net-(U1-Pad14)",
-          "Board_1-Net-(J2-Pad2)",
-          "Board_1-Net-(J4-Pad4)",
-          "Board_1-Net-(J3-Pad1)",
-          "Board_1-Net-(FB1-Pad1)",
-          "Board_1-Net-(C3-Pad1)",
-          "Board_1-Net-(J2-Pad3)",
-          "Board_1-Net-(J3-Pad3)",
-          "Board_1-Net-(J6-Pad3)",
-          "Board_1-Net-(J6-Pad5)",
-          "Board_1-Earth",
-          "Board_1-/MISO2",
-          "Board_1-/RXLED",
-          "Board_1-Net-(J4-Pad2)",
-          "Board_1-+5V",
-          "Board_1-Net-(C4-Pad1)",
-          "Board_1-Net-(J6-Pad6)",
-          "Board_1-Net-(R1-Pad1)",
-          "Board_1-Net-(J6-Pad4)",
-          "Board_1-Net-(C5-Pad1)",
-          "Board_1-/SCK2",
-          "Board_1-Net-(C8-Pad2)",
-          "Board_1-Net-(R2-Pad1)",
-          "Board_1-Net-(J6-Pad2)",
-          "Board_1-Net-(J3-Pad5)",
-          "Board_1-Net-(J4-Pad1)",
-          "Board_1-Net-(J4-Pad3)",
-          "Board_1-VBUS",
-          "Board_1-Net-(J3-Pad4)",
-          "Board_1-/MOSI2",
-          "Board_1-/DTR",
-          "Board_1-GND",
-          "Board_1-Net-(D2-Pad2)",
-          "Board_1-/RESET2",
-          "Board_1-Net-(F1-Pad2)"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -288,50 +210,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_2-Net-(J3-Pad2)",
-          "Board_2-/MOSI2",
-          "Board_2-Net-(C8-Pad2)",
-          "Board_2-Net-(J3-Pad4)",
-          "Board_2-Net-(J6-Pad4)",
-          "Board_2-Net-(J4-Pad3)",
-          "Board_2-Net-(D2-Pad2)",
-          "Board_2-Net-(J6-Pad6)",
-          "Board_2-VBUS",
-          "Board_2-/RESET2",
-          "Board_2-Net-(D3-Pad2)",
-          "Board_2-Net-(R2-Pad1)",
-          "Board_2-/RXLED",
-          "Board_2-Net-(R1-Pad1)",
-          "Board_2-Net-(J4-Pad1)",
-          "Board_2-Net-(C3-Pad1)",
-          "Board_2-/SCK2",
-          "Board_2-Net-(F1-Pad2)",
-          "Board_2-GND",
-          "Board_2-/DTR",
-          "Board_2-/TXLED",
-          "Board_2-Net-(J3-Pad1)",
-          "Board_2-Net-(J6-Pad3)",
-          "Board_2-Net-(C5-Pad1)",
-          "Board_2-+5V",
-          "Board_2-Net-(J3-Pad3)",
-          "Board_2-Net-(J4-Pad4)",
-          "Board_2-Net-(J4-Pad2)",
-          "Board_2-/MISO2",
-          "Board_2-Earth",
-          "Board_2-Net-(J6-Pad5)",
-          "Board_2-Net-(C4-Pad1)",
-          "Board_2-Net-(U1-Pad14)",
-          "Board_2-Net-(J2-Pad2)",
-          "Board_2-Net-(J2-Pad3)",
-          "Board_2-Net-(J6-Pad2)",
-          "Board_2-Net-(J3-Pad5)",
-          "Board_2-Net-(FB1-Pad1)"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -345,50 +227,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_3-Net-(R1-Pad1)",
-          "Board_3-Net-(J6-Pad5)",
-          "Board_3-Net-(J4-Pad1)",
-          "Board_3-Earth",
-          "Board_3-GND",
-          "Board_3-Net-(C3-Pad1)",
-          "Board_3-Net-(J3-Pad3)",
-          "Board_3-Net-(J6-Pad3)",
-          "Board_3-Net-(J2-Pad3)",
-          "Board_3-Net-(J4-Pad4)",
-          "Board_3-Net-(FB1-Pad1)",
-          "Board_3-/RXLED",
-          "Board_3-Net-(J4-Pad3)",
-          "Board_3-/TXLED",
-          "Board_3-Net-(C4-Pad1)",
-          "Board_3-Net-(D2-Pad2)",
-          "Board_3-/DTR",
-          "Board_3-/RESET2",
-          "Board_3-Net-(J6-Pad2)",
-          "Board_3-Net-(J3-Pad2)",
-          "Board_3-Net-(J4-Pad2)",
-          "Board_3-+5V",
-          "Board_3-Net-(U1-Pad14)",
-          "Board_3-Net-(J3-Pad1)",
-          "Board_3-Net-(C5-Pad1)",
-          "Board_3-Net-(F1-Pad2)",
-          "Board_3-Net-(J3-Pad5)",
-          "Board_3-Net-(J6-Pad6)",
-          "Board_3-Net-(J3-Pad4)",
-          "Board_3-/MISO2",
-          "Board_3-/SCK2",
-          "Board_3-Net-(J6-Pad4)",
-          "Board_3-VBUS",
-          "Board_3-Net-(D3-Pad2)",
-          "Board_3-Net-(R2-Pad1)",
-          "Board_3-Net-(C8-Pad2)",
-          "Board_3-/MOSI2",
-          "Board_3-Net-(J2-Pad2)"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -402,50 +244,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_4-/DTR",
-          "Board_4-Net-(D3-Pad2)",
-          "Board_4-Net-(J2-Pad2)",
-          "Board_4-Net-(C4-Pad1)",
-          "Board_4-Net-(J3-Pad1)",
-          "Board_4-Net-(C8-Pad2)",
-          "Board_4-Net-(J6-Pad6)",
-          "Board_4-Net-(U1-Pad14)",
-          "Board_4-VBUS",
-          "Board_4-/RXLED",
-          "Board_4-Net-(J6-Pad4)",
-          "Board_4-Net-(FB1-Pad1)",
-          "Board_4-Earth",
-          "Board_4-Net-(J4-Pad4)",
-          "Board_4-/MOSI2",
-          "Board_4-Net-(J3-Pad5)",
-          "Board_4-Net-(J6-Pad2)",
-          "Board_4-Net-(C3-Pad1)",
-          "Board_4-+5V",
-          "Board_4-Net-(F1-Pad2)",
-          "Board_4-Net-(J6-Pad5)",
-          "Board_4-Net-(J3-Pad2)",
-          "Board_4-Net-(J4-Pad1)",
-          "Board_4-/TXLED",
-          "Board_4-Net-(D2-Pad2)",
-          "Board_4-Net-(J3-Pad3)",
-          "Board_4-Net-(R2-Pad1)",
-          "Board_4-Net-(J4-Pad2)",
-          "Board_4-Net-(C5-Pad1)",
-          "Board_4-Net-(J3-Pad4)",
-          "Board_4-Net-(J2-Pad3)",
-          "Board_4-Net-(R1-Pad1)",
-          "Board_4-Net-(J6-Pad3)",
-          "Board_4-/RESET2",
-          "Board_4-/SCK2",
-          "Board_4-GND",
-          "Board_4-/MISO2",
-          "Board_4-Net-(J4-Pad3)"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -459,50 +261,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_5-Net-(F1-Pad2)",
-          "Board_5-/TXLED",
-          "Board_5-/MISO2",
-          "Board_5-Net-(J6-Pad5)",
-          "Board_5-Net-(J2-Pad2)",
-          "Board_5-Net-(C4-Pad1)",
-          "Board_5-Net-(J3-Pad4)",
-          "Board_5-Net-(J6-Pad3)",
-          "Board_5-Net-(J6-Pad4)",
-          "Board_5-/DTR",
-          "Board_5-Net-(R2-Pad1)",
-          "Board_5-+5V",
-          "Board_5-Earth",
-          "Board_5-Net-(J3-Pad5)",
-          "Board_5-Net-(J6-Pad2)",
-          "Board_5-/RESET2",
-          "Board_5-Net-(J3-Pad3)",
-          "Board_5-Net-(J4-Pad2)",
-          "Board_5-Net-(R1-Pad1)",
-          "Board_5-Net-(J3-Pad1)",
-          "Board_5-Net-(J3-Pad2)",
-          "Board_5-Net-(C8-Pad2)",
-          "Board_5-Net-(J4-Pad1)",
-          "Board_5-Net-(FB1-Pad1)",
-          "Board_5-VBUS",
-          "Board_5-Net-(C5-Pad1)",
-          "Board_5-Net-(J6-Pad6)",
-          "Board_5-/MOSI2",
-          "Board_5-/RXLED",
-          "Board_5-Net-(J4-Pad3)",
-          "Board_5-Net-(D2-Pad2)",
-          "Board_5-Net-(J2-Pad3)",
-          "Board_5-/SCK2",
-          "Board_5-Net-(D3-Pad2)",
-          "Board_5-Net-(C3-Pad1)",
-          "Board_5-Net-(U1-Pad14)",
-          "Board_5-GND",
-          "Board_5-Net-(J4-Pad4)"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -516,50 +278,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_6-/DTR",
-          "Board_6-Net-(J3-Pad1)",
-          "Board_6-Net-(J2-Pad3)",
-          "Board_6-Net-(J2-Pad2)",
-          "Board_6-Net-(J6-Pad6)",
-          "Board_6-Net-(J6-Pad3)",
-          "Board_6-Net-(J4-Pad4)",
-          "Board_6-Net-(R1-Pad1)",
-          "Board_6-/MOSI2",
-          "Board_6-Net-(J4-Pad1)",
-          "Board_6-GND",
-          "Board_6-Net-(J6-Pad5)",
-          "Board_6-VBUS",
-          "Board_6-Net-(F1-Pad2)",
-          "Board_6-/MISO2",
-          "Board_6-+5V",
-          "Board_6-Net-(C5-Pad1)",
-          "Board_6-Net-(J3-Pad5)",
-          "Board_6-/RXLED",
-          "Board_6-Net-(J3-Pad4)",
-          "Board_6-Net-(C8-Pad2)",
-          "Board_6-/SCK2",
-          "Board_6-/RESET2",
-          "Board_6-Net-(C3-Pad1)",
-          "Board_6-Net-(J6-Pad4)",
-          "Board_6-Earth",
-          "Board_6-Net-(R2-Pad1)",
-          "Board_6-/TXLED",
-          "Board_6-Net-(U1-Pad14)",
-          "Board_6-Net-(C4-Pad1)",
-          "Board_6-Net-(J3-Pad2)",
-          "Board_6-Net-(J4-Pad2)",
-          "Board_6-Net-(J6-Pad2)",
-          "Board_6-Net-(J4-Pad3)",
-          "Board_6-Net-(D3-Pad2)",
-          "Board_6-Net-(D2-Pad2)",
-          "Board_6-Net-(J3-Pad3)",
-          "Board_6-Net-(FB1-Pad1)"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -573,50 +295,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_7-Net-(C4-Pad1)",
-          "Board_7-Net-(U1-Pad14)",
-          "Board_7-Net-(J4-Pad2)",
-          "Board_7-Net-(J6-Pad6)",
-          "Board_7-/DTR",
-          "Board_7-Net-(C3-Pad1)",
-          "Board_7-/RESET2",
-          "Board_7-Net-(J4-Pad3)",
-          "Board_7-Net-(J6-Pad2)",
-          "Board_7-/TXLED",
-          "Board_7-+5V",
-          "Board_7-Net-(J4-Pad1)",
-          "Board_7-VBUS",
-          "Board_7-Net-(C5-Pad1)",
-          "Board_7-/RXLED",
-          "Board_7-Net-(C8-Pad2)",
-          "Board_7-Net-(R2-Pad1)",
-          "Board_7-Net-(F1-Pad2)",
-          "Board_7-Net-(J3-Pad3)",
-          "Board_7-/MISO2",
-          "Board_7-Net-(FB1-Pad1)",
-          "Board_7-Net-(J2-Pad3)",
-          "Board_7-Net-(J3-Pad5)",
-          "Board_7-GND",
-          "Board_7-/MOSI2",
-          "Board_7-Net-(J3-Pad2)",
-          "Board_7-Net-(J3-Pad4)",
-          "Board_7-Net-(J3-Pad1)",
-          "Board_7-Net-(J6-Pad4)",
-          "Board_7-Net-(D3-Pad2)",
-          "Board_7-Earth",
-          "Board_7-Net-(J4-Pad4)",
-          "Board_7-Net-(J2-Pad2)",
-          "Board_7-Net-(J6-Pad3)",
-          "Board_7-/SCK2",
-          "Board_7-Net-(R1-Pad1)",
-          "Board_7-Net-(D2-Pad2)",
-          "Board_7-Net-(J6-Pad5)"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -630,50 +312,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_8-GND",
-          "Board_8-Net-(J6-Pad5)",
-          "Board_8-Net-(J2-Pad3)",
-          "Board_8-Earth",
-          "Board_8-Net-(J4-Pad1)",
-          "Board_8-Net-(C8-Pad2)",
-          "Board_8-Net-(R2-Pad1)",
-          "Board_8-Net-(U1-Pad14)",
-          "Board_8-Net-(R1-Pad1)",
-          "Board_8-Net-(J2-Pad2)",
-          "Board_8-/MOSI2",
-          "Board_8-Net-(C3-Pad1)",
-          "Board_8-Net-(J3-Pad2)",
-          "Board_8-Net-(J4-Pad3)",
-          "Board_8-Net-(C4-Pad1)",
-          "Board_8-Net-(J4-Pad4)",
-          "Board_8-Net-(J6-Pad2)",
-          "Board_8-/RXLED",
-          "Board_8-Net-(C5-Pad1)",
-          "Board_8-Net-(J6-Pad6)",
-          "Board_8-/DTR",
-          "Board_8-Net-(J3-Pad5)",
-          "Board_8-Net-(D3-Pad2)",
-          "Board_8-VBUS",
-          "Board_8-/SCK2",
-          "Board_8-Net-(J4-Pad2)",
-          "Board_8-Net-(J6-Pad3)",
-          "Board_8-Net-(D2-Pad2)",
-          "Board_8-Net-(J6-Pad4)",
-          "Board_8-Net-(FB1-Pad1)",
-          "Board_8-/RESET2",
-          "Board_8-+5V",
-          "Board_8-Net-(J3-Pad4)",
-          "Board_8-/TXLED",
-          "Board_8-Net-(J3-Pad3)",
-          "Board_8-Net-(J3-Pad1)",
-          "Board_8-Net-(F1-Pad2)",
-          "Board_8-/MISO2"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -687,50 +329,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_9-Net-(U1-Pad14)",
-          "Board_9-Net-(C3-Pad1)",
-          "Board_9-Net-(J6-Pad5)",
-          "Board_9-/DTR",
-          "Board_9-GND",
-          "Board_9-Net-(J2-Pad3)",
-          "Board_9-Net-(J3-Pad5)",
-          "Board_9-Net-(D2-Pad2)",
-          "Board_9-/SCK2",
-          "Board_9-/RESET2",
-          "Board_9-Net-(J4-Pad2)",
-          "Board_9-Net-(J6-Pad2)",
-          "Board_9-Net-(J4-Pad3)",
-          "Board_9-Net-(F1-Pad2)",
-          "Board_9-Net-(J3-Pad1)",
-          "Board_9-Net-(C4-Pad1)",
-          "Board_9-Net-(D3-Pad2)",
-          "Board_9-Net-(J2-Pad2)",
-          "Board_9-Net-(C8-Pad2)",
-          "Board_9-/MOSI2",
-          "Board_9-VBUS",
-          "Board_9-Net-(J3-Pad2)",
-          "Board_9-Net-(R1-Pad1)",
-          "Board_9-/TXLED",
-          "Board_9-/MISO2",
-          "Board_9-Net-(C5-Pad1)",
-          "Board_9-Net-(J4-Pad4)",
-          "Board_9-/RXLED",
-          "Board_9-Net-(FB1-Pad1)",
-          "Board_9-Net-(J6-Pad6)",
-          "Board_9-Net-(J3-Pad4)",
-          "Board_9-Net-(J4-Pad1)",
-          "Board_9-Net-(J6-Pad3)",
-          "Board_9-Earth",
-          "Board_9-Net-(R2-Pad1)",
-          "Board_9-Net-(J6-Pad4)",
-          "Board_9-+5V",
-          "Board_9-Net-(J3-Pad3)"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -744,50 +346,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_10-Net-(J3-Pad3)",
-          "Board_10-Net-(D3-Pad2)",
-          "Board_10-GND",
-          "Board_10-Net-(J2-Pad2)",
-          "Board_10-Earth",
-          "Board_10-Net-(U1-Pad14)",
-          "Board_10-Net-(R1-Pad1)",
-          "Board_10-Net-(R2-Pad1)",
-          "Board_10-/RXLED",
-          "Board_10-Net-(J6-Pad5)",
-          "Board_10-Net-(C8-Pad2)",
-          "Board_10-Net-(F1-Pad2)",
-          "Board_10-/MISO2",
-          "Board_10-Net-(J4-Pad3)",
-          "Board_10-Net-(J3-Pad2)",
-          "Board_10-/TXLED",
-          "Board_10-Net-(J6-Pad3)",
-          "Board_10-Net-(D2-Pad2)",
-          "Board_10-Net-(J4-Pad2)",
-          "Board_10-Net-(J4-Pad1)",
-          "Board_10-Net-(J3-Pad4)",
-          "Board_10-Net-(J6-Pad6)",
-          "Board_10-Net-(C5-Pad1)",
-          "Board_10-Net-(J4-Pad4)",
-          "Board_10-VBUS",
-          "Board_10-Net-(J6-Pad2)",
-          "Board_10-/MOSI2",
-          "Board_10-/DTR",
-          "Board_10-Net-(C4-Pad1)",
-          "Board_10-Net-(C3-Pad1)",
-          "Board_10-/SCK2",
-          "Board_10-+5V",
-          "Board_10-Net-(J6-Pad4)",
-          "Board_10-Net-(J3-Pad5)",
-          "Board_10-Net-(J2-Pad3)",
-          "Board_10-/RESET2",
-          "Board_10-Net-(J3-Pad1)",
-          "Board_10-Net-(FB1-Pad1)"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -801,50 +363,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_11-Net-(J4-Pad2)",
-          "Board_11-Earth",
-          "Board_11-Net-(C8-Pad2)",
-          "Board_11-Net-(J6-Pad5)",
-          "Board_11-/SCK2",
-          "Board_11-/TXLED",
-          "Board_11-+5V",
-          "Board_11-/MISO2",
-          "Board_11-Net-(J4-Pad4)",
-          "Board_11-/MOSI2",
-          "Board_11-Net-(J4-Pad3)",
-          "Board_11-Net-(J2-Pad3)",
-          "Board_11-Net-(C4-Pad1)",
-          "Board_11-Net-(J6-Pad2)",
-          "Board_11-Net-(C5-Pad1)",
-          "Board_11-Net-(J3-Pad4)",
-          "Board_11-Net-(R2-Pad1)",
-          "Board_11-Net-(C3-Pad1)",
-          "Board_11-Net-(J3-Pad3)",
-          "Board_11-/RXLED",
-          "Board_11-Net-(J6-Pad4)",
-          "Board_11-Net-(J6-Pad3)",
-          "Board_11-Net-(D3-Pad2)",
-          "Board_11-VBUS",
-          "Board_11-Net-(F1-Pad2)",
-          "Board_11-Net-(R1-Pad1)",
-          "Board_11-Net-(D2-Pad2)",
-          "Board_11-Net-(FB1-Pad1)",
-          "Board_11-/RESET2",
-          "Board_11-Net-(J4-Pad1)",
-          "Board_11-Net-(J6-Pad6)",
-          "Board_11-Net-(J3-Pad5)",
-          "Board_11-Net-(J2-Pad2)",
-          "Board_11-Net-(J3-Pad1)",
-          "Board_11-/DTR",
-          "Board_11-GND",
-          "Board_11-Net-(U1-Pad14)",
-          "Board_11-Net-(J3-Pad2)"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -858,50 +380,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_12-Net-(J4-Pad3)",
-          "Board_12-VBUS",
-          "Board_12-Net-(J6-Pad2)",
-          "Board_12-Net-(F1-Pad2)",
-          "Board_12-/MISO2",
-          "Board_12-Net-(R2-Pad1)",
-          "Board_12-Net-(R1-Pad1)",
-          "Board_12-/SCK2",
-          "Board_12-Net-(C5-Pad1)",
-          "Board_12-Earth",
-          "Board_12-Net-(D2-Pad2)",
-          "Board_12-Net-(C3-Pad1)",
-          "Board_12-Net-(J3-Pad5)",
-          "Board_12-/RESET2",
-          "Board_12-/RXLED",
-          "Board_12-Net-(J3-Pad2)",
-          "Board_12-Net-(C8-Pad2)",
-          "Board_12-Net-(J3-Pad1)",
-          "Board_12-Net-(J6-Pad6)",
-          "Board_12-Net-(J3-Pad4)",
-          "Board_12-/TXLED",
-          "Board_12-Net-(D3-Pad2)",
-          "Board_12-Net-(J4-Pad4)",
-          "Board_12-Net-(J4-Pad1)",
-          "Board_12-Net-(J3-Pad3)",
-          "Board_12-Net-(U1-Pad14)",
-          "Board_12-+5V",
-          "Board_12-Net-(J2-Pad2)",
-          "Board_12-GND",
-          "Board_12-Net-(FB1-Pad1)",
-          "Board_12-/MOSI2",
-          "Board_12-Net-(J6-Pad5)",
-          "Board_12-Net-(J2-Pad3)",
-          "Board_12-Net-(C4-Pad1)",
-          "Board_12-Net-(J4-Pad2)",
-          "Board_12-Net-(J6-Pad4)",
-          "Board_12-/DTR",
-          "Board_12-Net-(J6-Pad3)"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -915,50 +397,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_13-Net-(C5-Pad1)",
-          "Board_13-Earth",
-          "Board_13-Net-(J4-Pad3)",
-          "Board_13-GND",
-          "Board_13-Net-(J4-Pad2)",
-          "Board_13-Net-(J3-Pad5)",
-          "Board_13-Net-(U1-Pad14)",
-          "Board_13-Net-(D2-Pad2)",
-          "Board_13-/TXLED",
-          "Board_13-/MOSI2",
-          "Board_13-Net-(FB1-Pad1)",
-          "Board_13-Net-(J4-Pad4)",
-          "Board_13-Net-(R2-Pad1)",
-          "Board_13-Net-(R1-Pad1)",
-          "Board_13-VBUS",
-          "Board_13-/RXLED",
-          "Board_13-Net-(J2-Pad2)",
-          "Board_13-+5V",
-          "Board_13-Net-(J6-Pad6)",
-          "Board_13-Net-(D3-Pad2)",
-          "Board_13-Net-(J6-Pad3)",
-          "Board_13-Net-(J6-Pad4)",
-          "Board_13-Net-(J3-Pad3)",
-          "Board_13-/SCK2",
-          "Board_13-Net-(C8-Pad2)",
-          "Board_13-Net-(J3-Pad4)",
-          "Board_13-Net-(J6-Pad5)",
-          "Board_13-Net-(J3-Pad1)",
-          "Board_13-Net-(J4-Pad1)",
-          "Board_13-/MISO2",
-          "Board_13-Net-(F1-Pad2)",
-          "Board_13-Net-(C4-Pad1)",
-          "Board_13-Net-(J6-Pad2)",
-          "Board_13-Net-(C3-Pad1)",
-          "Board_13-Net-(J3-Pad2)",
-          "Board_13-/RESET2",
-          "Board_13-/DTR",
-          "Board_13-Net-(J2-Pad3)"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -972,50 +414,10 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_14-Net-(R1-Pad1)",
-          "Board_14-/MISO2",
-          "Board_14-Net-(J3-Pad1)",
-          "Board_14-Net-(J6-Pad6)",
-          "Board_14-Net-(J3-Pad5)",
-          "Board_14-Net-(C4-Pad1)",
-          "Board_14-Net-(J6-Pad4)",
-          "Board_14-Net-(J2-Pad2)",
-          "Board_14-/SCK2",
-          "Board_14-/RESET2",
-          "Board_14-Net-(C8-Pad2)",
-          "Board_14-Net-(U1-Pad14)",
-          "Board_14-Net-(J3-Pad4)",
-          "Board_14-Net-(C5-Pad1)",
-          "Board_14-Net-(F1-Pad2)",
-          "Board_14-/TXLED",
-          "Board_14-Net-(J3-Pad3)",
-          "Board_14-Net-(R2-Pad1)",
-          "Board_14-Net-(J6-Pad5)",
-          "Board_14-Net-(J3-Pad2)",
-          "Board_14-Net-(J2-Pad3)",
-          "Board_14-Net-(J4-Pad3)",
-          "Board_14-Earth",
-          "Board_14-VBUS",
-          "Board_14-Net-(J4-Pad2)",
-          "Board_14-Net-(D2-Pad2)",
-          "Board_14-Net-(C3-Pad1)",
-          "Board_14-/DTR",
-          "Board_14-/MOSI2",
-          "Board_14-+5V",
-          "Board_14-Net-(FB1-Pad1)",
-          "Board_14-Net-(D3-Pad2)",
-          "Board_14-Net-(J6-Pad3)",
-          "Board_14-Net-(J6-Pad2)",
-          "Board_14-Net-(J4-Pad4)",
-          "Board_14-Net-(J4-Pad1)",
-          "Board_14-/RXLED",
-          "Board_14-GND"
-        ]
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -1029,97 +431,18 @@
         "track_width": 0.2032,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0,
-        "nets": [
-          "Board_15-+5V",
-          "Board_15-GND",
-          "Board_15-Net-(J6-Pad2)",
-          "Board_15-/SCK2",
-          "Board_15-Net-(D3-Pad2)",
-          "Board_15-/MISO2",
-          "Board_15-Net-(J6-Pad6)",
-          "Board_15-Net-(U1-Pad14)",
-          "Board_15-Net-(F1-Pad2)",
-          "Board_15-Net-(J4-Pad2)",
-          "Board_15-/RXLED",
-          "Board_15-Net-(J4-Pad1)",
-          "Board_15-Net-(R1-Pad1)",
-          "Board_15-Net-(J3-Pad4)",
-          "Board_15-Net-(FB1-Pad1)",
-          "Board_15-Net-(C8-Pad2)",
-          "Board_15-Net-(C3-Pad1)",
-          "Board_15-Net-(J3-Pad1)",
-          "Board_15-Net-(C4-Pad1)",
-          "Board_15-Net-(J3-Pad3)",
-          "Board_15-Net-(D2-Pad2)",
-          "Board_15-/DTR",
-          "Board_15-Earth",
-          "Board_15-Net-(J2-Pad3)",
-          "Board_15-Net-(J6-Pad3)",
-          "Board_15-Net-(J3-Pad2)",
-          "Board_15-Net-(C5-Pad1)",
-          "Board_15-VBUS",
-          "Board_15-Net-(J6-Pad4)",
-          "Board_15-/MOSI2",
-          "Board_15-Net-(J2-Pad2)",
-          "Board_15-Net-(J4-Pad3)",
-          "Board_15-Net-(J6-Pad5)",
-          "Board_15-Net-(J4-Pad4)",
-          "Board_15-/TXLED",
-          "Board_15-/RESET2",
-          "Board_15-Net-(R2-Pad1)",
-          "Board_15-Net-(J3-Pad5)"
-        ]
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
     "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J6-Pad5)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J3-Pad3)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J4-Pad3)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Earth"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J6-Pad2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MISO2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J3-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J6-Pad3)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/TXLED"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J3-Pad5)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J3-Pad2)"
+        "pattern": "Board_0-Net-(D2-Pad2)"
       },
       {
         "netclass": "Board_0-Default",
@@ -1127,55 +450,7 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(U1-Pad14)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J3-Pad4)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/DTR"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J4-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/RXLED"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/SCK2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(D2-Pad2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(C3-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(FB1-Pad1)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/MOSI2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(C8-Pad2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(D3-Pad2)"
+        "pattern": "Board_0-Net-(J6-Pad4)"
       },
       {
         "netclass": "Board_0-Default",
@@ -1183,31 +458,11 @@
       },
       {
         "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
         "pattern": "Board_0-/RESET2"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-GND"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(F1-Pad2)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J2-Pad3)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-VBUS"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J6-Pad4)"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J6-Pad6)"
       },
       {
         "netclass": "Board_0-Default",
@@ -1215,7 +470,79 @@
       },
       {
         "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J2-Pad3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J6-Pad6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J3-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-VBUS"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J6-Pad5)"
+      },
+      {
+        "netclass": "Board_0-Default",
         "pattern": "Board_0-Net-(J4-Pad4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J4-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-GND"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J4-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U1-Pad14)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MOSI2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J3-Pad1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Earth"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/SCK2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C8-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/DTR"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J4-Pad3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MISO2"
       },
       {
         "netclass": "Board_0-Default",
@@ -1223,51 +550,47 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(R2-Pad1)"
+        "pattern": "Board_0-Net-(J3-Pad3)"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J4-Pad2)"
+        "pattern": "Board_0-Net-(J3-Pad4)"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J3-Pad2)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J6-Pad3)"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(D3-Pad2)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/RXLED"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/TXLED"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(F1-Pad2)"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(U1-Pad14)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J3-Pad5)"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J2-Pad2)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/TXLED"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J4-Pad4)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(C3-Pad1)"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J3-Pad1)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D3-Pad2)"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(FB1-Pad1)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J6-Pad2)"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(C3-Pad1)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J2-Pad3)"
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(R2-Pad1)"
       },
       {
         "netclass": "Board_1-Default",
@@ -1275,27 +598,7 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J6-Pad3)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J6-Pad5)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Earth"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/MISO2"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/RXLED"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J4-Pad2)"
+        "pattern": "Board_1-Net-(FB1-Pad1)"
       },
       {
         "netclass": "Board_1-Default",
@@ -1303,31 +606,31 @@
       },
       {
         "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J6-Pad5)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J4-Pad3)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-GND"
+      },
+      {
+        "netclass": "Board_1-Default",
         "pattern": "Board_1-Net-(C4-Pad1)"
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J6-Pad6)"
+        "pattern": "Board_1-Net-(F1-Pad2)"
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(R1-Pad1)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J6-Pad4)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(C5-Pad1)"
+        "pattern": "Board_1-/MISO2"
       },
       {
         "netclass": "Board_1-Default",
         "pattern": "Board_1-/SCK2"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(C8-Pad2)"
       },
       {
         "netclass": "Board_1-Default",
@@ -1339,19 +642,27 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J3-Pad5)"
+        "pattern": "Board_1-Net-(J6-Pad3)"
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J4-Pad1)"
+        "pattern": "Board_1-Net-(J4-Pad4)"
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(J4-Pad3)"
+        "pattern": "Board_1-Net-(J6-Pad6)"
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-VBUS"
+        "pattern": "Board_1-/DTR"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J6-Pad4)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U1-Pad14)"
       },
       {
         "netclass": "Board_1-Default",
@@ -1363,14 +674,6 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-/DTR"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-GND"
-      },
-      {
-        "netclass": "Board_1-Default",
         "pattern": "Board_1-Net-(D2-Pad2)"
       },
       {
@@ -1379,39 +682,67 @@
       },
       {
         "netclass": "Board_1-Default",
-        "pattern": "Board_1-Net-(F1-Pad2)"
+        "pattern": "Board_1-Net-(J3-Pad5)"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J3-Pad2)"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J4-Pad1)"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MOSI2"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C3-Pad1)"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(C8-Pad2)"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J2-Pad2)"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J3-Pad4)"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(R1-Pad1)"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J6-Pad4)"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J3-Pad1)"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J4-Pad3)"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-VBUS"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(D2-Pad2)"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(D3-Pad2)"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J6-Pad6)"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/RXLED"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J3-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Earth"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/TXLED"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(C8-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J4-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(J2-Pad3)"
       },
       {
         "netclass": "Board_2-Default",
@@ -1419,19 +750,15 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/RESET2"
+        "pattern": "Board_2-Net-(J6-Pad3)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(D3-Pad2)"
+        "pattern": "Board_2-Net-(J4-Pad1)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(R2-Pad1)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/RXLED"
+        "pattern": "Board_2-/DTR"
       },
       {
         "netclass": "Board_2-Default",
@@ -1439,7 +766,47 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J4-Pad1)"
+        "pattern": "Board_2-Net-(J6-Pad2)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MISO2"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(J4-Pad4)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(J2-Pad2)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(J6-Pad6)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(J3-Pad1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(J3-Pad4)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(J3-Pad2)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/RESET2"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(R2-Pad1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(J6-Pad5)"
       },
       {
         "netclass": "Board_2-Default",
@@ -1451,27 +818,11 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(F1-Pad2)"
+        "pattern": "Board_2-Earth"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-GND"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/DTR"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/TXLED"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J3-Pad1)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J6-Pad3)"
+        "pattern": "Board_2-Net-(J4-Pad3)"
       },
       {
         "netclass": "Board_2-Default",
@@ -1479,35 +830,27 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-+5V"
+        "pattern": "Board_2-/TXLED"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J3-Pad3)"
+        "pattern": "Board_2-Net-(J6-Pad4)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J4-Pad4)"
+        "pattern": "Board_2-Net-(D2-Pad2)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J4-Pad2)"
+        "pattern": "Board_2-GND"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/MISO2"
+        "pattern": "Board_2-Net-(FB1-Pad1)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Earth"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J6-Pad5)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(C4-Pad1)"
+        "pattern": "Board_2-/RXLED"
       },
       {
         "netclass": "Board_2-Default",
@@ -1515,15 +858,11 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J2-Pad2)"
-      },
-      {
-        "netclass": "Board_2-Default",
         "pattern": "Board_2-Net-(J2-Pad3)"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J6-Pad2)"
+        "pattern": "Board_2-Net-(J4-Pad2)"
       },
       {
         "netclass": "Board_2-Default",
@@ -1531,15 +870,83 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(FB1-Pad1)"
+        "pattern": "Board_2-Net-(C8-Pad2)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(C4-Pad1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(J3-Pad3)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-+5V"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(F1-Pad2)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(D3-Pad2)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MOSI2"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(R1-Pad1)"
+        "pattern": "Board_3-Net-(J6-Pad6)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(J2-Pad3)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/TXLED"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(J6-Pad4)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-GND"
       },
       {
         "netclass": "Board_3-Default",
         "pattern": "Board_3-Net-(J6-Pad5)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(F1-Pad2)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(D2-Pad2)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(C4-Pad1)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(R2-Pad1)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U1-Pad14)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(C5-Pad1)"
       },
       {
         "netclass": "Board_3-Default",
@@ -1551,99 +958,7 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-GND"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(C3-Pad1)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(J3-Pad3)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(J6-Pad3)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(J2-Pad3)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(J4-Pad4)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(FB1-Pad1)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/RXLED"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(J4-Pad3)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/TXLED"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(C4-Pad1)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(D2-Pad2)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/DTR"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/RESET2"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(J6-Pad2)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(J3-Pad2)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(J4-Pad2)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-+5V"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U1-Pad14)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(J3-Pad1)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(F1-Pad2)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(J3-Pad5)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(J6-Pad6)"
+        "pattern": "Board_3-Net-(C8-Pad2)"
       },
       {
         "netclass": "Board_3-Default",
@@ -1651,15 +966,11 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/MISO2"
+        "pattern": "Board_3-Net-(J3-Pad5)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/SCK2"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(J6-Pad4)"
+        "pattern": "Board_3-Net-(C3-Pad1)"
       },
       {
         "netclass": "Board_3-Default",
@@ -1667,15 +978,23 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(D3-Pad2)"
+        "pattern": "Board_3-Net-(J6-Pad2)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(R2-Pad1)"
+        "pattern": "Board_3-Net-(R1-Pad1)"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(C8-Pad2)"
+        "pattern": "Board_3-/SCK2"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/RESET2"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(J6-Pad3)"
       },
       {
         "netclass": "Board_3-Default",
@@ -1683,31 +1002,51 @@
       },
       {
         "netclass": "Board_3-Default",
+        "pattern": "Board_3-+5V"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/RXLED"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MISO2"
+      },
+      {
+        "netclass": "Board_3-Default",
         "pattern": "Board_3-Net-(J2-Pad2)"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/DTR"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/DTR"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(D3-Pad2)"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(J3-Pad2)"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J2-Pad2)"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(J3-Pad3)"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(C4-Pad1)"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(J4-Pad2)"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J3-Pad1)"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(D3-Pad2)"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(C8-Pad2)"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(J3-Pad1)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(J4-Pad3)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(J4-Pad4)"
       },
       {
         "netclass": "Board_4-Default",
@@ -1715,99 +1054,11 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U1-Pad14)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-VBUS"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/RXLED"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J6-Pad4)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(FB1-Pad1)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Earth"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J4-Pad4)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/MOSI2"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J3-Pad5)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J6-Pad2)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(C3-Pad1)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-+5V"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(F1-Pad2)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J6-Pad5)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J3-Pad2)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J4-Pad1)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/TXLED"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(D2-Pad2)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J3-Pad3)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(R2-Pad1)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J4-Pad2)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J3-Pad4)"
-      },
-      {
-        "netclass": "Board_4-Default",
         "pattern": "Board_4-Net-(J2-Pad3)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J3-Pad1)"
       },
       {
         "netclass": "Board_4-Default",
@@ -1815,11 +1066,31 @@
       },
       {
         "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J3-Pad3)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J3-Pad2)"
+      },
+      {
+        "netclass": "Board_4-Default",
         "pattern": "Board_4-Net-(J6-Pad3)"
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/RESET2"
+        "pattern": "Board_4-Net-(R2-Pad1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J4-Pad3)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J2-Pad2)"
       },
       {
         "netclass": "Board_4-Default",
@@ -1827,7 +1098,71 @@
       },
       {
         "netclass": "Board_4-Default",
+        "pattern": "Board_4-/RESET2"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J6-Pad4)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U1-Pad14)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-+5V"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MOSI2"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/TXLED"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(C4-Pad1)"
+      },
+      {
+        "netclass": "Board_4-Default",
         "pattern": "Board_4-GND"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J4-Pad4)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/DTR"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J3-Pad5)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J4-Pad2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J4-Pad1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(D3-Pad2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J6-Pad5)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J3-Pad4)"
       },
       {
         "netclass": "Board_4-Default",
@@ -1835,51 +1170,39 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(J4-Pad3)"
+        "pattern": "Board_4-Net-(C3-Pad1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-VBUS"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Earth"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(D2-Pad2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(J6-Pad2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(C8-Pad2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/RXLED"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(F1-Pad2)"
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(F1-Pad2)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/TXLED"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MISO2"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J6-Pad5)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J2-Pad2)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(C4-Pad1)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J3-Pad4)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J6-Pad3)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J6-Pad4)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/DTR"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(R2-Pad1)"
+        "pattern": "Board_5-GND"
       },
       {
         "netclass": "Board_5-Default",
@@ -1887,27 +1210,7 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-Earth"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J3-Pad5)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J6-Pad2)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/RESET2"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J3-Pad3)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J4-Pad2)"
+        "pattern": "Board_5-Net-(R2-Pad1)"
       },
       {
         "netclass": "Board_5-Default",
@@ -1915,15 +1218,7 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J3-Pad1)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J3-Pad2)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(C8-Pad2)"
+        "pattern": "Board_5-Net-(FB1-Pad1)"
       },
       {
         "netclass": "Board_5-Default",
@@ -1931,11 +1226,51 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(FB1-Pad1)"
+        "pattern": "Board_5-Net-(U1-Pad14)"
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-VBUS"
+        "pattern": "Board_5-Net-(J3-Pad4)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(J3-Pad1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/TXLED"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(F1-Pad2)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(J3-Pad3)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(J2-Pad3)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/RXLED"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/DTR"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(J2-Pad2)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/SCK2"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(J4-Pad4)"
       },
       {
         "netclass": "Board_5-Default",
@@ -1947,31 +1282,15 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-/MOSI2"
+        "pattern": "Board_5-/RESET2"
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-/RXLED"
+        "pattern": "Board_5-VBUS"
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J4-Pad3)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(D2-Pad2)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J2-Pad3)"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/SCK2"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(D3-Pad2)"
+        "pattern": "Board_5-Net-(J3-Pad2)"
       },
       {
         "netclass": "Board_5-Default",
@@ -1979,71 +1298,59 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U1-Pad14)"
+        "pattern": "Board_5-Net-(D3-Pad2)"
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-GND"
+        "pattern": "Board_5-Net-(J4-Pad3)"
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J4-Pad4)"
+        "pattern": "Board_5-Net-(J3-Pad5)"
       },
       {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/DTR"
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(J6-Pad3)"
       },
       {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(J3-Pad1)"
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(J6-Pad4)"
       },
       {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(J2-Pad3)"
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(J4-Pad2)"
       },
       {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(J2-Pad2)"
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MISO2"
       },
       {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(J6-Pad6)"
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(C8-Pad2)"
       },
       {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(J6-Pad3)"
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(C4-Pad1)"
       },
       {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(J4-Pad4)"
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Earth"
       },
       {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(R1-Pad1)"
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MOSI2"
       },
       {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/MOSI2"
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(D2-Pad2)"
       },
       {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(J4-Pad1)"
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(J6-Pad2)"
       },
       {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-GND"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(J6-Pad5)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-VBUS"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(F1-Pad2)"
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(J6-Pad5)"
       },
       {
         "netclass": "Board_6-Default",
@@ -2051,15 +1358,11 @@
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-+5V"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Board_6-Default",
         "pattern": "Board_6-Net-(J3-Pad5)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/TXLED"
       },
       {
         "netclass": "Board_6-Default",
@@ -2071,7 +1374,7 @@
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(C8-Pad2)"
+        "pattern": "Board_6-Net-(J4-Pad1)"
       },
       {
         "netclass": "Board_6-Default",
@@ -2079,7 +1382,15 @@
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-/RESET2"
+        "pattern": "Board_6-Net-(D3-Pad2)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(J6-Pad5)"
       },
       {
         "netclass": "Board_6-Default",
@@ -2095,15 +1406,7 @@
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(R2-Pad1)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/TXLED"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(U1-Pad14)"
+        "pattern": "Board_6-Net-(J6-Pad2)"
       },
       {
         "netclass": "Board_6-Default",
@@ -2111,23 +1414,19 @@
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(J3-Pad2)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(J4-Pad2)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(J6-Pad2)"
-      },
-      {
-        "netclass": "Board_6-Default",
         "pattern": "Board_6-Net-(J4-Pad3)"
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(D3-Pad2)"
+        "pattern": "Board_6-GND"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(J4-Pad4)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(J3-Pad3)"
       },
       {
         "netclass": "Board_6-Default",
@@ -2135,7 +1434,71 @@
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(J3-Pad3)"
+        "pattern": "Board_6-Net-(F1-Pad2)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(J3-Pad2)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/MOSI2"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(J3-Pad1)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(R1-Pad1)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-VBUS"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/DTR"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-+5V"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(J2-Pad3)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(J6-Pad6)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(R2-Pad1)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(C8-Pad2)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/RESET2"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(J6-Pad3)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(J4-Pad2)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(U1-Pad14)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(J2-Pad2)"
       },
       {
         "netclass": "Board_6-Default",
@@ -2147,15 +1510,7 @@
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(U1-Pad14)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J4-Pad2)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J6-Pad6)"
+        "pattern": "Board_7-Net-(J3-Pad1)"
       },
       {
         "netclass": "Board_7-Default",
@@ -2163,35 +1518,19 @@
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(C3-Pad1)"
+        "pattern": "Board_7-Net-(J6-Pad3)"
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-/RESET2"
+        "pattern": "Board_7-Net-(J2-Pad3)"
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J4-Pad3)"
+        "pattern": "Board_7-Net-(J6-Pad4)"
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J6-Pad2)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/TXLED"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-+5V"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J4-Pad1)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-VBUS"
+        "pattern": "Board_7-/MOSI2"
       },
       {
         "netclass": "Board_7-Default",
@@ -2199,7 +1538,35 @@
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-/RXLED"
+        "pattern": "Board_7-/SCK2"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(J4-Pad1)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(J4-Pad2)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(R1-Pad1)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(F1-Pad2)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(D3-Pad2)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(J6-Pad2)"
       },
       {
         "netclass": "Board_7-Default",
@@ -2211,79 +1578,7 @@
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(F1-Pad2)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J3-Pad3)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/MISO2"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(FB1-Pad1)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J2-Pad3)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J3-Pad5)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-GND"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/MOSI2"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J3-Pad2)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J3-Pad4)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J3-Pad1)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J6-Pad4)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(D3-Pad2)"
-      },
-      {
-        "netclass": "Board_7-Default",
         "pattern": "Board_7-Earth"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J4-Pad4)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J2-Pad2)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(J6-Pad3)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/SCK2"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(R1-Pad1)"
       },
       {
         "netclass": "Board_7-Default",
@@ -2291,11 +1586,83 @@
       },
       {
         "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(J4-Pad4)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/TXLED"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(J2-Pad2)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/MISO2"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(J3-Pad3)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(J3-Pad5)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-+5V"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/RESET2"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/RXLED"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(J3-Pad4)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(J4-Pad3)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-GND"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(J3-Pad2)"
+      },
+      {
+        "netclass": "Board_7-Default",
         "pattern": "Board_7-Net-(J6-Pad5)"
       },
       {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(U1-Pad14)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-VBUS"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(J6-Pad6)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(C3-Pad1)"
+      },
+      {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-GND"
+        "pattern": "Board_8-Net-(F1-Pad2)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(J4-Pad2)"
       },
       {
         "netclass": "Board_8-Default",
@@ -2303,71 +1670,7 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(J2-Pad3)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Earth"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(J4-Pad1)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(C8-Pad2)"
-      },
-      {
-        "netclass": "Board_8-Default",
         "pattern": "Board_8-Net-(R2-Pad1)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(U1-Pad14)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(R1-Pad1)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(J2-Pad2)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/MOSI2"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(C3-Pad1)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(J3-Pad2)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(J4-Pad3)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(C4-Pad1)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(J4-Pad4)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(J6-Pad2)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/RXLED"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(C5-Pad1)"
       },
       {
         "netclass": "Board_8-Default",
@@ -2375,11 +1678,35 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/DTR"
+        "pattern": "Board_8-Net-(R1-Pad1)"
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(J3-Pad5)"
+        "pattern": "Board_8-Net-(J3-Pad4)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/RXLED"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/SCK2"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/TXLED"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(J2-Pad3)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(J6-Pad3)"
       },
       {
         "netclass": "Board_8-Default",
@@ -2391,19 +1718,7 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/SCK2"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(J4-Pad2)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(J6-Pad3)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(D2-Pad2)"
+        "pattern": "Board_8-Net-(J4-Pad3)"
       },
       {
         "netclass": "Board_8-Default",
@@ -2411,11 +1726,23 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(FB1-Pad1)"
+        "pattern": "Board_8-/MOSI2"
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/RESET2"
+        "pattern": "Board_8-Net-(J4-Pad4)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(C8-Pad2)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Earth"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(D2-Pad2)"
       },
       {
         "netclass": "Board_8-Default",
@@ -2423,15 +1750,55 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(J3-Pad4)"
+        "pattern": "Board_8-Net-(C4-Pad1)"
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/TXLED"
+        "pattern": "Board_8-Net-(J4-Pad1)"
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(J3-Pad3)"
+        "pattern": "Board_8-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(J6-Pad2)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(J3-Pad2)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-GND"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/MISO2"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/RESET2"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/DTR"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(J3-Pad5)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(U1-Pad14)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(C3-Pad1)"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(J2-Pad2)"
       },
       {
         "netclass": "Board_8-Default",
@@ -2439,15 +1806,7 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(F1-Pad2)"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/MISO2"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(U1-Pad14)"
+        "pattern": "Board_8-Net-(J3-Pad3)"
       },
       {
         "netclass": "Board_9-Default",
@@ -2455,23 +1814,43 @@
       },
       {
         "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(J3-Pad2)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/MOSI2"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Board_9-Default",
         "pattern": "Board_9-Net-(J6-Pad5)"
       },
       {
         "netclass": "Board_9-Default",
-        "pattern": "Board_9-/DTR"
+        "pattern": "Board_9-Net-(J3-Pad3)"
       },
       {
         "netclass": "Board_9-Default",
-        "pattern": "Board_9-GND"
+        "pattern": "Board_9-Net-(J4-Pad4)"
       },
       {
         "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(J2-Pad3)"
+        "pattern": "Board_9-Net-(U1-Pad14)"
       },
       {
         "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(J3-Pad5)"
+        "pattern": "Board_9-/MISO2"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/TXLED"
       },
       {
         "netclass": "Board_9-Default",
@@ -2479,7 +1858,7 @@
       },
       {
         "netclass": "Board_9-Default",
-        "pattern": "Board_9-/SCK2"
+        "pattern": "Board_9-Net-(J4-Pad2)"
       },
       {
         "netclass": "Board_9-Default",
@@ -2487,11 +1866,47 @@
       },
       {
         "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(J4-Pad2)"
+        "pattern": "Board_9-Net-(D3-Pad2)"
       },
       {
         "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(J6-Pad2)"
+        "pattern": "Board_9-Net-(R1-Pad1)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(J2-Pad3)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(J3-Pad4)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(R2-Pad1)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/SCK2"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-GND"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(J2-Pad2)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Earth"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(J3-Pad1)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(C8-Pad2)"
       },
       {
         "netclass": "Board_9-Default",
@@ -2503,90 +1918,6 @@
       },
       {
         "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(J3-Pad1)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(C4-Pad1)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(D3-Pad2)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(J2-Pad2)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(C8-Pad2)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-/MOSI2"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-VBUS"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(J3-Pad2)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(R1-Pad1)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-/TXLED"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-/MISO2"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(J4-Pad4)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-/RXLED"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(FB1-Pad1)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(J6-Pad6)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(J3-Pad4)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(J4-Pad1)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(J6-Pad3)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Earth"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(R2-Pad1)"
-      },
-      {
-        "netclass": "Board_9-Default",
         "pattern": "Board_9-Net-(J6-Pad4)"
       },
       {
@@ -2595,99 +1926,39 @@
       },
       {
         "netclass": "Board_9-Default",
-        "pattern": "Board_9-Net-(J3-Pad3)"
+        "pattern": "Board_9-Net-(J6-Pad2)"
       },
       {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(J3-Pad3)"
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(J3-Pad5)"
       },
       {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(D3-Pad2)"
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(J6-Pad3)"
       },
       {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-GND"
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(C4-Pad1)"
       },
       {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(J2-Pad2)"
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(J4-Pad1)"
       },
       {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Earth"
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-VBUS"
       },
       {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(U1-Pad14)"
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/DTR"
       },
       {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(R1-Pad1)"
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/RXLED"
       },
       {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(R2-Pad1)"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-/RXLED"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(J6-Pad5)"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(C8-Pad2)"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(F1-Pad2)"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-/MISO2"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(J4-Pad3)"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(J3-Pad2)"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-/TXLED"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(J6-Pad3)"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(D2-Pad2)"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(J4-Pad2)"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(J4-Pad1)"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(J3-Pad4)"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(J6-Pad6)"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(C5-Pad1)"
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-Net-(J6-Pad6)"
       },
       {
         "netclass": "Board_10-Default",
@@ -2695,43 +1966,27 @@
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-VBUS"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(J6-Pad2)"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-/MOSI2"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-/DTR"
-      },
-      {
-        "netclass": "Board_10-Default",
         "pattern": "Board_10-Net-(C4-Pad1)"
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(C3-Pad1)"
+        "pattern": "Board_10-Net-(J4-Pad3)"
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-/SCK2"
+        "pattern": "Board_10-Net-(R2-Pad1)"
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-+5V"
+        "pattern": "Board_10-Net-(F1-Pad2)"
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(J6-Pad4)"
+        "pattern": "Board_10-Net-(J6-Pad5)"
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(J3-Pad5)"
+        "pattern": "Board_10-Net-(J6-Pad3)"
       },
       {
         "netclass": "Board_10-Default",
@@ -2739,7 +1994,79 @@
       },
       {
         "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(D3-Pad2)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(J4-Pad2)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-GND"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(U1-Pad14)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(J6-Pad4)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(D2-Pad2)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-+5V"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/TXLED"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(J3-Pad4)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/MOSI2"
+      },
+      {
+        "netclass": "Board_10-Default",
         "pattern": "Board_10-/RESET2"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(J3-Pad3)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/RXLED"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-VBUS"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(J2-Pad2)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(J6-Pad2)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/SCK2"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/MISO2"
       },
       {
         "netclass": "Board_10-Default",
@@ -2747,79 +2074,43 @@
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(FB1-Pad1)"
+        "pattern": "Board_10-Net-(J3-Pad2)"
       },
       {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(J4-Pad2)"
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(J4-Pad1)"
       },
       {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Earth"
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(J3-Pad5)"
       },
       {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(C8-Pad2)"
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Earth"
       },
       {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(J6-Pad5)"
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(C3-Pad1)"
       },
       {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-/SCK2"
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(J6-Pad6)"
       },
       {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-/TXLED"
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/DTR"
       },
       {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-+5V"
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(C8-Pad2)"
       },
       {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-/MISO2"
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(R1-Pad1)"
       },
       {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(J4-Pad4)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-/MOSI2"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(J4-Pad3)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(J2-Pad3)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(C4-Pad1)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(J6-Pad2)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(J3-Pad4)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(R2-Pad1)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(C3-Pad1)"
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(C5-Pad1)"
       },
       {
         "netclass": "Board_11-Default",
@@ -2827,7 +2118,11 @@
       },
       {
         "netclass": "Board_11-Default",
-        "pattern": "Board_11-/RXLED"
+        "pattern": "Board_11-Net-(J3-Pad4)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(C5-Pad1)"
       },
       {
         "netclass": "Board_11-Default",
@@ -2835,23 +2130,11 @@
       },
       {
         "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(J6-Pad3)"
+        "pattern": "Board_11-/RXLED"
       },
       {
         "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(D3-Pad2)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-VBUS"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(F1-Pad2)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(R1-Pad1)"
+        "pattern": "Board_11-Net-(J6-Pad5)"
       },
       {
         "netclass": "Board_11-Default",
@@ -2859,35 +2142,7 @@
       },
       {
         "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(FB1-Pad1)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-/RESET2"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(J4-Pad1)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(J6-Pad6)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(J3-Pad5)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(J2-Pad2)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(J3-Pad1)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-/DTR"
+        "pattern": "Board_11-Net-(F1-Pad2)"
       },
       {
         "netclass": "Board_11-Default",
@@ -2895,19 +2150,131 @@
       },
       {
         "netclass": "Board_11-Default",
+        "pattern": "Board_11-/TXLED"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(C4-Pad1)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/MOSI2"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(D3-Pad2)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(J4-Pad3)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(J6-Pad6)"
+      },
+      {
+        "netclass": "Board_11-Default",
         "pattern": "Board_11-Net-(U1-Pad14)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/MISO2"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(C8-Pad2)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(J4-Pad4)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/RESET2"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(J4-Pad2)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-+5V"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(J4-Pad1)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(J6-Pad3)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(C3-Pad1)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(J2-Pad2)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(J2-Pad3)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(R2-Pad1)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(R1-Pad1)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/SCK2"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Earth"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(J6-Pad2)"
       },
       {
         "netclass": "Board_11-Default",
         "pattern": "Board_11-Net-(J3-Pad2)"
       },
       {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J4-Pad3)"
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-VBUS"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/DTR"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(J3-Pad5)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(J3-Pad1)"
       },
       {
         "netclass": "Board_12-Default",
-        "pattern": "Board_12-VBUS"
+        "pattern": "Board_12-Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-/MOSI2"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(R1-Pad1)"
       },
       {
         "netclass": "Board_12-Default",
@@ -2915,7 +2282,91 @@
       },
       {
         "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(F1-Pad2)"
+        "pattern": "Board_12-Net-(J6-Pad3)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-GND"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Earth"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(C8-Pad2)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(J2-Pad2)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(J4-Pad3)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-/SCK2"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(C3-Pad1)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(J3-Pad1)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(J4-Pad1)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(J3-Pad5)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(J4-Pad2)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-/TXLED"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-/DTR"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-/RESET2"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(J6-Pad4)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(C4-Pad1)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(J3-Pad3)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-/RXLED"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(D2-Pad2)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(J4-Pad4)"
       },
       {
         "netclass": "Board_12-Default",
@@ -2927,107 +2378,7 @@
       },
       {
         "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(R1-Pad1)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-/SCK2"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Earth"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(D2-Pad2)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(C3-Pad1)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J3-Pad5)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-/RESET2"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-/RXLED"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J3-Pad2)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(C8-Pad2)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J3-Pad1)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J6-Pad6)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J3-Pad4)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-/TXLED"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(D3-Pad2)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J4-Pad4)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J4-Pad1)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J3-Pad3)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(U1-Pad14)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-+5V"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J2-Pad2)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-GND"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(FB1-Pad1)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-/MOSI2"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J6-Pad5)"
+        "pattern": "Board_12-VBUS"
       },
       {
         "netclass": "Board_12-Default",
@@ -3035,151 +2386,35 @@
       },
       {
         "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(C4-Pad1)"
+        "pattern": "Board_12-+5V"
       },
       {
         "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J4-Pad2)"
+        "pattern": "Board_12-Net-(J6-Pad5)"
       },
       {
         "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J6-Pad4)"
+        "pattern": "Board_12-Net-(J6-Pad6)"
       },
       {
         "netclass": "Board_12-Default",
-        "pattern": "Board_12-/DTR"
+        "pattern": "Board_12-Net-(U1-Pad14)"
       },
       {
         "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J6-Pad3)"
+        "pattern": "Board_12-Net-(F1-Pad2)"
       },
       {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(C5-Pad1)"
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(J3-Pad2)"
       },
       {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Earth"
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(J3-Pad4)"
       },
       {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(J4-Pad3)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-GND"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(J4-Pad2)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(J3-Pad5)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(U1-Pad14)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(D2-Pad2)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-/TXLED"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-/MOSI2"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(FB1-Pad1)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(J4-Pad4)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(R2-Pad1)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(R1-Pad1)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-VBUS"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-/RXLED"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(J2-Pad2)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-+5V"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(J6-Pad6)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(D3-Pad2)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(J6-Pad3)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(J6-Pad4)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(J3-Pad3)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-/SCK2"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(C8-Pad2)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(J3-Pad4)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(J6-Pad5)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(J3-Pad1)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(J4-Pad1)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-/MISO2"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(F1-Pad2)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(C4-Pad1)"
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(D3-Pad2)"
       },
       {
         "netclass": "Board_13-Default",
@@ -3187,15 +2422,11 @@
       },
       {
         "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(C3-Pad1)"
+        "pattern": "Board_13-/TXLED"
       },
       {
         "netclass": "Board_13-Default",
         "pattern": "Board_13-Net-(J3-Pad2)"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-/RESET2"
       },
       {
         "netclass": "Board_13-Default",
@@ -3206,20 +2437,156 @@
         "pattern": "Board_13-Net-(J2-Pad3)"
       },
       {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(R1-Pad1)"
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(J6-Pad6)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(J4-Pad1)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(R1-Pad1)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(C8-Pad2)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(R2-Pad1)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-GND"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(F1-Pad2)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-/RESET2"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-/MISO2"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(U1-Pad14)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(J4-Pad3)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-/RXLED"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(J3-Pad1)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(C3-Pad1)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(C4-Pad1)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(J3-Pad5)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-/MOSI2"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(J6-Pad5)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(D2-Pad2)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(J6-Pad3)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(D3-Pad2)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-VBUS"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(J4-Pad2)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Earth"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(J3-Pad4)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-+5V"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(J2-Pad2)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(J6-Pad4)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-/SCK2"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(J3-Pad3)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-Net-(J4-Pad4)"
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-/MISO2"
+        "pattern": "Board_14-Net-(J4-Pad2)"
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(J3-Pad1)"
+        "pattern": "Board_14-Net-(J6-Pad3)"
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(J6-Pad6)"
+        "pattern": "Board_14-Net-(J6-Pad2)"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-/DTR"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-/TXLED"
       },
       {
         "netclass": "Board_14-Default",
@@ -3227,19 +2594,19 @@
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(C4-Pad1)"
+        "pattern": "Board_14-/RXLED"
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(J6-Pad4)"
+        "pattern": "Board_14-Net-(R2-Pad1)"
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(J2-Pad2)"
+        "pattern": "Board_14-Net-(C3-Pad1)"
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-/SCK2"
+        "pattern": "Board_14-VBUS"
       },
       {
         "netclass": "Board_14-Default",
@@ -3247,11 +2614,71 @@
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(C8-Pad2)"
+        "pattern": "Board_14-Net-(D2-Pad2)"
       },
       {
         "netclass": "Board_14-Default",
         "pattern": "Board_14-Net-(U1-Pad14)"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-Net-(J6-Pad5)"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-Net-(J4-Pad4)"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-Net-(J3-Pad3)"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-/MOSI2"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-Net-(R1-Pad1)"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-Net-(J4-Pad1)"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-Net-(J6-Pad4)"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-Net-(J3-Pad1)"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-Net-(D3-Pad2)"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-Net-(C8-Pad2)"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-Earth"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-+5V"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-Net-(J2-Pad2)"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-GND"
       },
       {
         "netclass": "Board_14-Default",
@@ -3267,27 +2694,7 @@
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-/TXLED"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(J3-Pad3)"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(R2-Pad1)"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(J6-Pad5)"
-      },
-      {
-        "netclass": "Board_14-Default",
         "pattern": "Board_14-Net-(J3-Pad2)"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(J2-Pad3)"
       },
       {
         "netclass": "Board_14-Default",
@@ -3295,95 +2702,23 @@
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-Earth"
+        "pattern": "Board_14-Net-(J2-Pad3)"
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-VBUS"
+        "pattern": "Board_14-/MISO2"
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(J4-Pad2)"
+        "pattern": "Board_14-Net-(C4-Pad1)"
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(D2-Pad2)"
+        "pattern": "Board_14-Net-(J6-Pad6)"
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(C3-Pad1)"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-/DTR"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-/MOSI2"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-+5V"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(FB1-Pad1)"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(D3-Pad2)"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(J6-Pad3)"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(J6-Pad2)"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(J4-Pad4)"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(J4-Pad1)"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-/RXLED"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-GND"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-+5V"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-GND"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(J6-Pad2)"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-/SCK2"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(D3-Pad2)"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-/MISO2"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(J6-Pad6)"
+        "pattern": "Board_14-/SCK2"
       },
       {
         "netclass": "Board_15-Default",
@@ -3391,39 +2726,11 @@
       },
       {
         "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(F1-Pad2)"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(J4-Pad2)"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-/RXLED"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(J4-Pad1)"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(R1-Pad1)"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(J3-Pad4)"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(FB1-Pad1)"
-      },
-      {
-        "netclass": "Board_15-Default",
         "pattern": "Board_15-Net-(C8-Pad2)"
       },
       {
         "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(C3-Pad1)"
+        "pattern": "Board_15-Net-(F1-Pad2)"
       },
       {
         "netclass": "Board_15-Default",
@@ -3431,31 +2738,7 @@
       },
       {
         "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(C4-Pad1)"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(J3-Pad3)"
-      },
-      {
-        "netclass": "Board_15-Default",
         "pattern": "Board_15-Net-(D2-Pad2)"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-/DTR"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-Earth"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(J2-Pad3)"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(J6-Pad3)"
       },
       {
         "netclass": "Board_15-Default",
@@ -3463,19 +2746,7 @@
       },
       {
         "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-VBUS"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(J6-Pad4)"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-/MOSI2"
+        "pattern": "Board_15-Net-(J3-Pad4)"
       },
       {
         "netclass": "Board_15-Default",
@@ -3483,7 +2754,11 @@
       },
       {
         "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(J4-Pad3)"
+        "pattern": "Board_15-Net-(R2-Pad1)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(C4-Pad1)"
       },
       {
         "netclass": "Board_15-Default",
@@ -3491,7 +2766,23 @@
       },
       {
         "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(J4-Pad4)"
+        "pattern": "Board_15-Net-(C3-Pad1)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-/RXLED"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Earth"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-/MOSI2"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(J6-Pad2)"
       },
       {
         "netclass": "Board_15-Default",
@@ -3499,15 +2790,87 @@
       },
       {
         "netclass": "Board_15-Default",
-        "pattern": "Board_15-/RESET2"
+        "pattern": "Board_15-Net-(J6-Pad6)"
       },
       {
         "netclass": "Board_15-Default",
-        "pattern": "Board_15-Net-(R2-Pad1)"
+        "pattern": "Board_15-Net-(J4-Pad3)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(FB1-Pad1)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-/SCK2"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(J2-Pad3)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-GND"
       },
       {
         "netclass": "Board_15-Default",
         "pattern": "Board_15-Net-(J3-Pad5)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(J4-Pad2)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(J3-Pad3)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(J6-Pad4)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(J6-Pad3)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(J4-Pad4)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(R1-Pad1)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-VBUS"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-/RESET2"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-/DTR"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(J4-Pad1)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-Net-(D3-Pad2)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-+5V"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-/MISO2"
       }
     ]
   },

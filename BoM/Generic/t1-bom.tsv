@@ -21,7 +21,7 @@ Schematic:	t1
 Variant:	default
 Revision:	${git_hash}
 Date:	${date}
-KiCad Version:	6.0.11+dfsg-1
+KiCad Version:	7.0.10-7.0.10~ubuntu23.04.1
 Statistics:
 Component Groups:	21
 Component Count:	30 (25 SMD/ 5 THT)
