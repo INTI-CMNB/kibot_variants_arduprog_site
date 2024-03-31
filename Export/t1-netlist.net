@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/__w/kibot_variants_arduprog/kibot_variants_arduprog/t1.kicad_sch")
-    (date "2024-03-31T15:50:58+0000")
+    (date "2024-03-31T16:11:51+0000")
     (tool "Eeschema 8.0.1+dfsg-1")
     (textvar (name "date") "Today")
     (textvar (name "git_hash") "WIP")
