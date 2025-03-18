@@ -110,13 +110,14 @@
       </ul>
   </li>
     <li><a href='t1-navigate_PCB_fabrication.html#_PanelDemo_4x4' class='navbar-output'>_PanelDemo_4x4</a></li>
+    <li><a href='t1-navigate_PCB_fabrication.html#basic_ipc2581' class='navbar-output'>basic_ipc2581</a></li>
+    <li><a href='t1-navigate_PCB_fabrication.html#basic_odb' class='navbar-output'>basic_odb</a></li>
   </ul>
      </ul>
   </li>
    <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> 3D</span>
      <ul id='folder-t1-navigate_pcb-3d' class='folder-contents' style='display:none;'>
   <ul class='navbar-category'>
-    <li><a href='t1-navigate_PCB_3D.html#_PCB2Blender_2_1' class='navbar-output'>_PCB2Blender_2_1</a></li>
     <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> Auxiliar</span>
       <ul id='folder-t1-navigate_pcb_3d-auxiliar' class='folder-contents' style='display:none;'>
    <ul class='navbar-category'>
@@ -124,11 +125,16 @@
    </ul>
       </ul>
   </li>
+    <li><a href='t1-navigate_PCB_3D.html#_PCB2Blender_2_1' class='navbar-output'>_PCB2Blender_2_1</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_blender_export' class='navbar-output'>basic_blender_export</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_step' class='navbar-output'>basic_export_3d_step</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_glb' class='navbar-output'>basic_export_3d_glb</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_stl' class='navbar-output'>basic_export_3d_stl</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_xao' class='navbar-output'>basic_export_3d_xao</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_brep' class='navbar-output'>basic_export_3d_brep</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_render_3d_top' class='navbar-output'>basic_render_3d_top</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_render_3d_30deg' class='navbar-output'>basic_render_3d_30deg</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_render_3d_bottom' class='navbar-output'>basic_render_3d_bottom</a></li>
-    <li><a href='t1-navigate_PCB_3D.html#basic_step' class='navbar-output'>basic_step</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_vrml' class='navbar-output'>basic_vrml</a></li>
   </ul>
      </ul>
@@ -145,6 +151,8 @@
   <ul class='navbar-category'>
     <li><a href='t1-navigate_PCB_export.html#basic_dxf' class='navbar-output'>basic_dxf</a></li>
     <li><a href='t1-navigate_PCB_export.html#basic_gencad' class='navbar-output'>basic_gencad</a></li>
+    <li><a href='t1-navigate_PCB_export.html#basic_ipc2581' class='navbar-output'>basic_ipc2581</a></li>
+    <li><a href='t1-navigate_PCB_export.html#basic_odb' class='navbar-output'>basic_odb</a></li>
   </ul>
      </ul>
   </li>
@@ -225,7 +233,7 @@
                 font-size:14px;
                 color: var(--text-color-accent);
                 margin-top: 5px;">
-                Instituto Nacional de Tecnología Industrial
+                Arduino
             </div>
         </div>
 <div style="display: flex; align-items: center; flex: 1; justify-content: flex-end; min-width: 0; gap: 10px; padding-right: 10px;">
@@ -235,7 +243,7 @@
                 font-size:14px;
                 margin-right: 10px;
                 color: var(--text-color-accent);">
-                <div style="margin-bottom: 5px;">Rev. WIP</div>
+                <div style="margin-bottom: 5px;">Rev. r1</div>
                 <div>Variant: </div>
             </div>
 <a href="https://github.com/INTI-CMNB/KiBot/" style="margin-right: 10px;">
@@ -263,9 +271,33 @@
             <p class="output-name">basic_dxf</p>
         </div>
 
+        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-F_Mask.dxf'">
+            <img src="images/file_dxf_64.png" alt="t1-F_Mask.dxf" width="64" height="64">
+            <p class="filename">t1-F_Mask.dxf</p>
+            <p class="output-name">basic_dxf</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-B_Cu.dxf'">
+            <img src="images/file_dxf_64.png" alt="t1-B_Cu.dxf" width="64" height="64">
+            <p class="filename">t1-B_Cu.dxf</p>
+            <p class="output-name">basic_dxf</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-B_Mask.dxf'">
+            <img src="images/file_dxf_64.png" alt="t1-B_Mask.dxf" width="64" height="64">
+            <p class="filename">t1-B_Mask.dxf</p>
+            <p class="output-name">basic_dxf</p>
+        </div>
+
         <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-GND_Cu.dxf'">
             <img src="images/file_dxf_64.png" alt="t1-GND_Cu.dxf" width="64" height="64">
             <p class="filename">t1-GND_Cu.dxf</p>
+            <p class="output-name">basic_dxf</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-F_Silkscreen.dxf'">
+            <img src="images/file_dxf_64.png" alt="t1-F_Silkscreen.dxf" width="64" height="64">
+            <p class="filename">t1-F_Silkscreen.dxf</p>
             <p class="output-name">basic_dxf</p>
         </div>
 
@@ -275,9 +307,9 @@
             <p class="output-name">basic_dxf</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-B_Cu.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-B_Cu.dxf" width="64" height="64">
-            <p class="filename">t1-B_Cu.dxf</p>
+        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-B_Silkscreen.dxf'">
+            <img src="images/file_dxf_64.png" alt="t1-B_Silkscreen.dxf" width="64" height="64">
+            <p class="filename">t1-B_Silkscreen.dxf</p>
             <p class="output-name">basic_dxf</p>
         </div>
 
@@ -290,30 +322,6 @@
         <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-F_Paste.dxf'">
             <img src="images/file_dxf_64.png" alt="t1-F_Paste.dxf" width="64" height="64">
             <p class="filename">t1-F_Paste.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-B_Silkscreen.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-B_Silkscreen.dxf" width="64" height="64">
-            <p class="filename">t1-B_Silkscreen.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-F_Silkscreen.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-F_Silkscreen.dxf" width="64" height="64">
-            <p class="filename">t1-F_Silkscreen.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-B_Mask.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-B_Mask.dxf" width="64" height="64">
-            <p class="filename">t1-B_Mask.dxf</p>
-            <p class="output-name">basic_dxf</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Individual_Layers/DXF/t1-F_Mask.dxf'">
-            <img src="images/file_dxf_64.png" alt="t1-F_Mask.dxf" width="64" height="64">
-            <p class="filename">t1-F_Mask.dxf</p>
             <p class="output-name">basic_dxf</p>
         </div>
 
@@ -368,6 +376,28 @@
             <img src="images/file_cad_64.png" alt="t1-gencad.cad" width="64" height="64">
             <p class="filename">t1-gencad.cad</p>
             <p class="output-name">basic_gencad</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_ipc2581">
+<div class="output-comment">PCB in IPC-2581 format</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../Export/t1-IPC-2581.zip'">
+            <img src="images/file_zip_64.png" alt="t1-IPC-2581.zip" width="64" height="64">
+            <p class="filename">t1-IPC-2581.zip</p>
+            <p class="output-name">basic_ipc2581</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_odb">
+<div class="output-comment">PCB in ODB++ format</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../Export/t1-odb.zip'">
+            <img src="images/file_zip_64.png" alt="t1-odb.zip" width="64" height="64">
+            <p class="filename">t1-odb.zip</p>
+            <p class="output-name">basic_odb</p>
         </div>
 </div>
 </div>

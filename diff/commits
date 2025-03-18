@@ -1,4 +1,4 @@
+92cc0c6|2025-03-18|Salvador E. Tropea|Migrated to KiCad 9 for tests|True|True
 6852985|2024-10-01|Salvador E. Tropea|Renamed MFN -> MNF and MFP -> MPN|True|True
 0931c6e|2024-04-11|Salvador E. Tropea|Fixed ERC issues|True|True
 9ec420a|2024-04-11|Salvador E. Tropea|Fixed PCB parity|False|True
-9b2bbda|2024-03-31|Salvador E. Tropea|Migrating to KiCad 8|True|True

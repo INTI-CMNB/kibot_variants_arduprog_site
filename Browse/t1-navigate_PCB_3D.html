@@ -110,13 +110,14 @@
       </ul>
   </li>
     <li><a href='t1-navigate_PCB_fabrication.html#_PanelDemo_4x4' class='navbar-output'>_PanelDemo_4x4</a></li>
+    <li><a href='t1-navigate_PCB_fabrication.html#basic_ipc2581' class='navbar-output'>basic_ipc2581</a></li>
+    <li><a href='t1-navigate_PCB_fabrication.html#basic_odb' class='navbar-output'>basic_odb</a></li>
   </ul>
      </ul>
   </li>
    <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> 3D</span>
      <ul id='folder-t1-navigate_pcb-3d' class='folder-contents' style='display:none;'>
   <ul class='navbar-category'>
-    <li><a href='t1-navigate_PCB_3D.html#_PCB2Blender_2_1' class='navbar-output'>_PCB2Blender_2_1</a></li>
     <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> Auxiliar</span>
       <ul id='folder-t1-navigate_pcb_3d-auxiliar' class='folder-contents' style='display:none;'>
    <ul class='navbar-category'>
@@ -124,11 +125,16 @@
    </ul>
       </ul>
   </li>
+    <li><a href='t1-navigate_PCB_3D.html#_PCB2Blender_2_1' class='navbar-output'>_PCB2Blender_2_1</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_blender_export' class='navbar-output'>basic_blender_export</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_step' class='navbar-output'>basic_export_3d_step</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_glb' class='navbar-output'>basic_export_3d_glb</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_stl' class='navbar-output'>basic_export_3d_stl</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_xao' class='navbar-output'>basic_export_3d_xao</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_brep' class='navbar-output'>basic_export_3d_brep</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_render_3d_top' class='navbar-output'>basic_render_3d_top</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_render_3d_30deg' class='navbar-output'>basic_render_3d_30deg</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_render_3d_bottom' class='navbar-output'>basic_render_3d_bottom</a></li>
-    <li><a href='t1-navigate_PCB_3D.html#basic_step' class='navbar-output'>basic_step</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_vrml' class='navbar-output'>basic_vrml</a></li>
   </ul>
      </ul>
@@ -145,6 +151,8 @@
   <ul class='navbar-category'>
     <li><a href='t1-navigate_PCB_export.html#basic_dxf' class='navbar-output'>basic_dxf</a></li>
     <li><a href='t1-navigate_PCB_export.html#basic_gencad' class='navbar-output'>basic_gencad</a></li>
+    <li><a href='t1-navigate_PCB_export.html#basic_ipc2581' class='navbar-output'>basic_ipc2581</a></li>
+    <li><a href='t1-navigate_PCB_export.html#basic_odb' class='navbar-output'>basic_odb</a></li>
   </ul>
      </ul>
   </li>
@@ -225,7 +233,7 @@
                 font-size:14px;
                 color: var(--text-color-accent);
                 margin-top: 5px;">
-                Instituto Nacional de Tecnología Industrial
+                Arduino
             </div>
         </div>
 <div style="display: flex; align-items: center; flex: 1; justify-content: flex-end; min-width: 0; gap: 10px; padding-right: 10px;">
@@ -235,7 +243,7 @@
                 font-size:14px;
                 margin-right: 10px;
                 color: var(--text-color-accent);">
-                <div style="margin-bottom: 5px;">Rev. WIP</div>
+                <div style="margin-bottom: 5px;">Rev. r1</div>
                 <div>Variant: </div>
             </div>
 <a href="https://github.com/INTI-CMNB/KiBot/" style="margin-right: 10px;">
@@ -253,6 +261,8 @@
         </div>
 </div>
 <div id="main">
+<div class="items-container">
+<div><div class="category-box" onclick="location.href='t1-navigate_PCB_3D_Auxiliar.html'">  <img src="images/repair_512.png" alt="Auxiliar" width="512" height="512">  <p class="category-title">Auxiliar</p></div></div></div>
 <div class="output-virtual-box" id="_PCB2Blender_2_1">
 <div class="output-comment">PCB3D model for pcb2blender plug-in</div>
 <div class="items-container">
@@ -305,6 +315,61 @@
         </div>
 </div>
 </div>
+<div class="output-virtual-box" id="basic_export_3d_step">
+<div class="output-comment">3D model in STEP format</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../3D/t1-3D.step'">
+            <img src="images/file_stp_64.png" alt="t1-3D.step" width="64" height="64">
+            <p class="filename">t1-3D.step</p>
+            <p class="output-name">basic_export_3d_step</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_export_3d_glb">
+<div class="output-comment">3D model in GLB format</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../3D/t1-3D.glb'">
+            <img src="images/file_glb_64.png" alt="t1-3D.glb" width="64" height="64">
+            <p class="filename">t1-3D.glb</p>
+            <p class="output-name">basic_export_3d_glb</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_export_3d_stl">
+<div class="output-comment">3D model in STL format</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../3D/t1-3D.stl'">
+            <img src="images/file_stl_64.png" alt="t1-3D.stl" width="64" height="64">
+            <p class="filename">t1-3D.stl</p>
+            <p class="output-name">basic_export_3d_stl</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_export_3d_xao">
+<div class="output-comment">3D model in XAO format</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../3D/t1-3D.xao'">
+            <img src="images/file_xao_64.png" alt="t1-3D.xao" width="64" height="64">
+            <p class="filename">t1-3D.xao</p>
+            <p class="output-name">basic_export_3d_xao</p>
+        </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_export_3d_brep">
+<div class="output-comment">3D model in BREP format</div>
+<div class="items-container">
+
+        <div class="output-box " onclick="location.href='../3D/t1-3D.brep'">
+            <img src="images/file_brep_64.png" alt="t1-3D.brep" width="64" height="64">
+            <p class="filename">t1-3D.brep</p>
+            <p class="output-name">basic_export_3d_brep</p>
+        </div>
+</div>
+</div>
 <div class="output-virtual-box" id="basic_render_3d_top">
 <div class="output-comment">3D view from top</div>
 <div class="items-container">
@@ -335,17 +400,6 @@
             <img src="images/cat_basic_render_3d_bottom_t1-3D_bottom.png" alt="t1-3D_bottom.png" width="512" height="289">
             <p class="filename">t1-3D_bottom.png</p>
             <p class="output-name">basic_render_3d_bottom</p>
-        </div>
-</div>
-</div>
-<div class="output-virtual-box" id="basic_step">
-<div class="output-comment">3D model in STEP format</div>
-<div class="items-container">
-
-        <div class="output-box " onclick="location.href='../3D/t1-3D.step'">
-            <img src="images/file_stp_64.png" alt="t1-3D.step" width="64" height="64">
-            <p class="filename">t1-3D.step</p>
-            <p class="output-name">basic_step</p>
         </div>
 </div>
 </div>

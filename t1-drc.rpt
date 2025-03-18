@@ -1,7 +1,9 @@
 ** Drc report for t1.kicad_pcb **
-** Created on 2025-03-18T16:06:59+0000 **
+** Created on 2025-03-18T16:36:24+0000 **
 
-** Found 0 DRC violations **
+** Found 1 DRC violations **
+[unresolved_variable]: Unresolved text variable
+    ; error
 
 ** Found 0 unconnected pads **
 

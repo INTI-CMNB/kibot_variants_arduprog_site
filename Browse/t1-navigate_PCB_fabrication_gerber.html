@@ -110,13 +110,14 @@
       </ul>
   </li>
     <li><a href='t1-navigate_PCB_fabrication.html#_PanelDemo_4x4' class='navbar-output'>_PanelDemo_4x4</a></li>
+    <li><a href='t1-navigate_PCB_fabrication.html#basic_ipc2581' class='navbar-output'>basic_ipc2581</a></li>
+    <li><a href='t1-navigate_PCB_fabrication.html#basic_odb' class='navbar-output'>basic_odb</a></li>
   </ul>
      </ul>
   </li>
    <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> 3D</span>
      <ul id='folder-t1-navigate_pcb-3d' class='folder-contents' style='display:none;'>
   <ul class='navbar-category'>
-    <li><a href='t1-navigate_PCB_3D.html#_PCB2Blender_2_1' class='navbar-output'>_PCB2Blender_2_1</a></li>
     <li class='folder'><span onclick='toggleFolder(this)'><span class='chevron'></span> Auxiliar</span>
       <ul id='folder-t1-navigate_pcb_3d-auxiliar' class='folder-contents' style='display:none;'>
    <ul class='navbar-category'>
@@ -124,11 +125,16 @@
    </ul>
       </ul>
   </li>
+    <li><a href='t1-navigate_PCB_3D.html#_PCB2Blender_2_1' class='navbar-output'>_PCB2Blender_2_1</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_blender_export' class='navbar-output'>basic_blender_export</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_step' class='navbar-output'>basic_export_3d_step</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_glb' class='navbar-output'>basic_export_3d_glb</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_stl' class='navbar-output'>basic_export_3d_stl</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_xao' class='navbar-output'>basic_export_3d_xao</a></li>
+    <li><a href='t1-navigate_PCB_3D.html#basic_export_3d_brep' class='navbar-output'>basic_export_3d_brep</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_render_3d_top' class='navbar-output'>basic_render_3d_top</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_render_3d_30deg' class='navbar-output'>basic_render_3d_30deg</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_render_3d_bottom' class='navbar-output'>basic_render_3d_bottom</a></li>
-    <li><a href='t1-navigate_PCB_3D.html#basic_step' class='navbar-output'>basic_step</a></li>
     <li><a href='t1-navigate_PCB_3D.html#basic_vrml' class='navbar-output'>basic_vrml</a></li>
   </ul>
      </ul>
@@ -145,6 +151,8 @@
   <ul class='navbar-category'>
     <li><a href='t1-navigate_PCB_export.html#basic_dxf' class='navbar-output'>basic_dxf</a></li>
     <li><a href='t1-navigate_PCB_export.html#basic_gencad' class='navbar-output'>basic_gencad</a></li>
+    <li><a href='t1-navigate_PCB_export.html#basic_ipc2581' class='navbar-output'>basic_ipc2581</a></li>
+    <li><a href='t1-navigate_PCB_export.html#basic_odb' class='navbar-output'>basic_odb</a></li>
   </ul>
      </ul>
   </li>
@@ -225,7 +233,7 @@
                 font-size:14px;
                 color: var(--text-color-accent);
                 margin-top: 5px;">
-                Instituto Nacional de Tecnología Industrial
+                Arduino
             </div>
         </div>
 <div style="display: flex; align-items: center; flex: 1; justify-content: flex-end; min-width: 0; gap: 10px; padding-right: 10px;">
@@ -235,7 +243,7 @@
                 font-size:14px;
                 margin-right: 10px;
                 color: var(--text-color-accent);">
-                <div style="margin-bottom: 5px;">Rev. WIP</div>
+                <div style="margin-bottom: 5px;">Rev. r1</div>
                 <div>Variant: </div>
             </div>
 <a href="https://github.com/INTI-CMNB/KiBot/" style="margin-right: 10px;">
@@ -263,15 +271,9 @@
             <p class="output-name">_Elecrow_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/Elecrow/t1.G1'">
-            <img src="images/file_gbr_64.png" alt="t1.G1" width="64" height="64">
-            <p class="filename">t1.G1</p>
-            <p class="output-name">_Elecrow_gerbers</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Manufacturers/Elecrow/t1.G2'">
-            <img src="images/file_gbr_64.png" alt="t1.G2" width="64" height="64">
-            <p class="filename">t1.G2</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/Elecrow/t1.GTS'">
+            <img src="images/file_gbr_64.png" alt="t1.GTS" width="64" height="64">
+            <p class="filename">t1.GTS</p>
             <p class="output-name">_Elecrow_gerbers</p>
         </div>
 
@@ -281,15 +283,9 @@
             <p class="output-name">_Elecrow_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/Elecrow/t1.GTP'">
-            <img src="images/file_gbr_64.png" alt="t1.GTP" width="64" height="64">
-            <p class="filename">t1.GTP</p>
-            <p class="output-name">_Elecrow_gerbers</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Manufacturers/Elecrow/t1.GBO'">
-            <img src="images/file_gbr_64.png" alt="t1.GBO" width="64" height="64">
-            <p class="filename">t1.GBO</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/Elecrow/t1.GBS'">
+            <img src="images/file_gbr_64.png" alt="t1.GBS" width="64" height="64">
+            <p class="filename">t1.GBS</p>
             <p class="output-name">_Elecrow_gerbers</p>
         </div>
 
@@ -299,15 +295,15 @@
             <p class="output-name">_Elecrow_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/Elecrow/t1.GBS'">
-            <img src="images/file_gbr_64.png" alt="t1.GBS" width="64" height="64">
-            <p class="filename">t1.GBS</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/Elecrow/t1.GBO'">
+            <img src="images/file_gbr_64.png" alt="t1.GBO" width="64" height="64">
+            <p class="filename">t1.GBO</p>
             <p class="output-name">_Elecrow_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/Elecrow/t1.GTS'">
-            <img src="images/file_gbr_64.png" alt="t1.GTS" width="64" height="64">
-            <p class="filename">t1.GTS</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/Elecrow/t1.GTP'">
+            <img src="images/file_gbr_64.png" alt="t1.GTP" width="64" height="64">
+            <p class="filename">t1.GTP</p>
             <p class="output-name">_Elecrow_gerbers</p>
         </div>
 
@@ -339,15 +335,9 @@
             <p class="output-name">_FusionPCB_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/FusionPCB/t1.GL2'">
-            <img src="images/file_gbr_64.png" alt="t1.GL2" width="64" height="64">
-            <p class="filename">t1.GL2</p>
-            <p class="output-name">_FusionPCB_gerbers</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Manufacturers/FusionPCB/t1.GL3'">
-            <img src="images/file_gbr_64.png" alt="t1.GL3" width="64" height="64">
-            <p class="filename">t1.GL3</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/FusionPCB/t1.GTS'">
+            <img src="images/file_gbr_64.png" alt="t1.GTS" width="64" height="64">
+            <p class="filename">t1.GTS</p>
             <p class="output-name">_FusionPCB_gerbers</p>
         </div>
 
@@ -357,15 +347,9 @@
             <p class="output-name">_FusionPCB_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/FusionPCB/t1.GTP'">
-            <img src="images/file_gbr_64.png" alt="t1.GTP" width="64" height="64">
-            <p class="filename">t1.GTP</p>
-            <p class="output-name">_FusionPCB_gerbers</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Manufacturers/FusionPCB/t1.GBO'">
-            <img src="images/file_gbr_64.png" alt="t1.GBO" width="64" height="64">
-            <p class="filename">t1.GBO</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/FusionPCB/t1.GBS'">
+            <img src="images/file_gbr_64.png" alt="t1.GBS" width="64" height="64">
+            <p class="filename">t1.GBS</p>
             <p class="output-name">_FusionPCB_gerbers</p>
         </div>
 
@@ -375,15 +359,15 @@
             <p class="output-name">_FusionPCB_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/FusionPCB/t1.GBS'">
-            <img src="images/file_gbr_64.png" alt="t1.GBS" width="64" height="64">
-            <p class="filename">t1.GBS</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/FusionPCB/t1.GBO'">
+            <img src="images/file_gbr_64.png" alt="t1.GBO" width="64" height="64">
+            <p class="filename">t1.GBO</p>
             <p class="output-name">_FusionPCB_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/FusionPCB/t1.GTS'">
-            <img src="images/file_gbr_64.png" alt="t1.GTS" width="64" height="64">
-            <p class="filename">t1.GTS</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/FusionPCB/t1.GTP'">
+            <img src="images/file_gbr_64.png" alt="t1.GTP" width="64" height="64">
+            <p class="filename">t1.GTP</p>
             <p class="output-name">_FusionPCB_gerbers</p>
         </div>
 
@@ -415,15 +399,9 @@
             <p class="output-name">_JLCPCB_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/JLCPCB/t1-GND_Cu.g1'">
-            <img src="images/file_gbr_64.png" alt="t1-GND_Cu.g1" width="64" height="64">
-            <p class="filename">t1-GND_Cu.g1</p>
-            <p class="output-name">_JLCPCB_gerbers</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Manufacturers/JLCPCB/t1-Power_Cu.g2'">
-            <img src="images/file_gbr_64.png" alt="t1-Power_Cu.g2" width="64" height="64">
-            <p class="filename">t1-Power_Cu.g2</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/JLCPCB/t1-F_Mask.gts'">
+            <img src="images/file_gbr_64.png" alt="t1-F_Mask.gts" width="64" height="64">
+            <p class="filename">t1-F_Mask.gts</p>
             <p class="output-name">_JLCPCB_gerbers</p>
         </div>
 
@@ -433,15 +411,9 @@
             <p class="output-name">_JLCPCB_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/JLCPCB/t1-F_Paste.gtp'">
-            <img src="images/file_gbr_64.png" alt="t1-F_Paste.gtp" width="64" height="64">
-            <p class="filename">t1-F_Paste.gtp</p>
-            <p class="output-name">_JLCPCB_gerbers</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Manufacturers/JLCPCB/t1-B_Silkscreen.gbo'">
-            <img src="images/file_gbr_64.png" alt="t1-B_Silkscreen.gbo" width="64" height="64">
-            <p class="filename">t1-B_Silkscreen.gbo</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/JLCPCB/t1-B_Mask.gbs'">
+            <img src="images/file_gbr_64.png" alt="t1-B_Mask.gbs" width="64" height="64">
+            <p class="filename">t1-B_Mask.gbs</p>
             <p class="output-name">_JLCPCB_gerbers</p>
         </div>
 
@@ -451,15 +423,15 @@
             <p class="output-name">_JLCPCB_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/JLCPCB/t1-B_Mask.gbs'">
-            <img src="images/file_gbr_64.png" alt="t1-B_Mask.gbs" width="64" height="64">
-            <p class="filename">t1-B_Mask.gbs</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/JLCPCB/t1-B_Silkscreen.gbo'">
+            <img src="images/file_gbr_64.png" alt="t1-B_Silkscreen.gbo" width="64" height="64">
+            <p class="filename">t1-B_Silkscreen.gbo</p>
             <p class="output-name">_JLCPCB_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/JLCPCB/t1-F_Mask.gts'">
-            <img src="images/file_gbr_64.png" alt="t1-F_Mask.gts" width="64" height="64">
-            <p class="filename">t1-F_Mask.gts</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/JLCPCB/t1-F_Paste.gtp'">
+            <img src="images/file_gbr_64.png" alt="t1-F_Paste.gtp" width="64" height="64">
+            <p class="filename">t1-F_Paste.gtp</p>
             <p class="output-name">_JLCPCB_gerbers</p>
         </div>
 
@@ -491,15 +463,9 @@
             <p class="output-name">_PCBWay_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/PCBWay/t1.gl2'">
-            <img src="images/file_gbr_64.png" alt="t1.gl2" width="64" height="64">
-            <p class="filename">t1.gl2</p>
-            <p class="output-name">_PCBWay_gerbers</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Manufacturers/PCBWay/t1.gl3'">
-            <img src="images/file_gbr_64.png" alt="t1.gl3" width="64" height="64">
-            <p class="filename">t1.gl3</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/PCBWay/t1.gts'">
+            <img src="images/file_gbr_64.png" alt="t1.gts" width="64" height="64">
+            <p class="filename">t1.gts</p>
             <p class="output-name">_PCBWay_gerbers</p>
         </div>
 
@@ -509,15 +475,9 @@
             <p class="output-name">_PCBWay_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/PCBWay/t1.gtp'">
-            <img src="images/file_gbr_64.png" alt="t1.gtp" width="64" height="64">
-            <p class="filename">t1.gtp</p>
-            <p class="output-name">_PCBWay_gerbers</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Manufacturers/PCBWay/t1.gbo'">
-            <img src="images/file_gbr_64.png" alt="t1.gbo" width="64" height="64">
-            <p class="filename">t1.gbo</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/PCBWay/t1.gbs'">
+            <img src="images/file_gbr_64.png" alt="t1.gbs" width="64" height="64">
+            <p class="filename">t1.gbs</p>
             <p class="output-name">_PCBWay_gerbers</p>
         </div>
 
@@ -527,15 +487,15 @@
             <p class="output-name">_PCBWay_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/PCBWay/t1.gbs'">
-            <img src="images/file_gbr_64.png" alt="t1.gbs" width="64" height="64">
-            <p class="filename">t1.gbs</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/PCBWay/t1.gbo'">
+            <img src="images/file_gbr_64.png" alt="t1.gbo" width="64" height="64">
+            <p class="filename">t1.gbo</p>
             <p class="output-name">_PCBWay_gerbers</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Manufacturers/PCBWay/t1.gts'">
-            <img src="images/file_gbr_64.png" alt="t1.gts" width="64" height="64">
-            <p class="filename">t1.gts</p>
+        <div class="output-box " onclick="location.href='../Manufacturers/PCBWay/t1.gtp'">
+            <img src="images/file_gbr_64.png" alt="t1.gtp" width="64" height="64">
+            <p class="filename">t1.gtp</p>
             <p class="output-name">_PCBWay_gerbers</p>
         </div>
 
@@ -567,9 +527,33 @@
             <p class="output-name">gerber_modern</p>
         </div>
 
+        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/t1-F_Mask.gbr'">
+            <img src="images/file_gbr_64.png" alt="t1-F_Mask.gbr" width="64" height="64">
+            <p class="filename">t1-F_Mask.gbr</p>
+            <p class="output-name">gerber_modern</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/t1-B_Cu.gbr'">
+            <img src="images/file_gbr_64.png" alt="t1-B_Cu.gbr" width="64" height="64">
+            <p class="filename">t1-B_Cu.gbr</p>
+            <p class="output-name">gerber_modern</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/t1-B_Mask.gbr'">
+            <img src="images/file_gbr_64.png" alt="t1-B_Mask.gbr" width="64" height="64">
+            <p class="filename">t1-B_Mask.gbr</p>
+            <p class="output-name">gerber_modern</p>
+        </div>
+
         <div class="output-box " onclick="location.href='../Gerbers_and_Drill/t1-GND_Cu.gbr'">
             <img src="images/file_gbr_64.png" alt="t1-GND_Cu.gbr" width="64" height="64">
             <p class="filename">t1-GND_Cu.gbr</p>
+            <p class="output-name">gerber_modern</p>
+        </div>
+
+        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/t1-F_Silkscreen.gbr'">
+            <img src="images/file_gbr_64.png" alt="t1-F_Silkscreen.gbr" width="64" height="64">
+            <p class="filename">t1-F_Silkscreen.gbr</p>
             <p class="output-name">gerber_modern</p>
         </div>
 
@@ -579,9 +563,9 @@
             <p class="output-name">gerber_modern</p>
         </div>
 
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/t1-B_Cu.gbr'">
-            <img src="images/file_gbr_64.png" alt="t1-B_Cu.gbr" width="64" height="64">
-            <p class="filename">t1-B_Cu.gbr</p>
+        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/t1-B_Silkscreen.gbr'">
+            <img src="images/file_gbr_64.png" alt="t1-B_Silkscreen.gbr" width="64" height="64">
+            <p class="filename">t1-B_Silkscreen.gbr</p>
             <p class="output-name">gerber_modern</p>
         </div>
 
@@ -594,30 +578,6 @@
         <div class="output-box " onclick="location.href='../Gerbers_and_Drill/t1-F_Paste.gbr'">
             <img src="images/file_gbr_64.png" alt="t1-F_Paste.gbr" width="64" height="64">
             <p class="filename">t1-F_Paste.gbr</p>
-            <p class="output-name">gerber_modern</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/t1-B_Silkscreen.gbr'">
-            <img src="images/file_gbr_64.png" alt="t1-B_Silkscreen.gbr" width="64" height="64">
-            <p class="filename">t1-B_Silkscreen.gbr</p>
-            <p class="output-name">gerber_modern</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/t1-F_Silkscreen.gbr'">
-            <img src="images/file_gbr_64.png" alt="t1-F_Silkscreen.gbr" width="64" height="64">
-            <p class="filename">t1-F_Silkscreen.gbr</p>
-            <p class="output-name">gerber_modern</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/t1-B_Mask.gbr'">
-            <img src="images/file_gbr_64.png" alt="t1-B_Mask.gbr" width="64" height="64">
-            <p class="filename">t1-B_Mask.gbr</p>
-            <p class="output-name">gerber_modern</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/t1-F_Mask.gbr'">
-            <img src="images/file_gbr_64.png" alt="t1-F_Mask.gbr" width="64" height="64">
-            <p class="filename">t1-F_Mask.gbr</p>
             <p class="output-name">gerber_modern</p>
         </div>
 

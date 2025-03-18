@@ -1725,9 +1725,9 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
  <td class="cell-info">
    <b>Schematic</b>: t1<br>
    <b>Variant</b>: default<br>
-   <b>Revision</b>: WIP<br>
-   <b>Date</b>: Today<br>
-   <b>KiCad Version</b>: 8.0.8+1<br>
+   <b>Revision</b>: r1<br>
+   <b>Date</b>: 2020-09-09<br>
+   <b>KiCad Version</b>: 9.0.0<br>
  </td>
  <td class="cell-stats">
    <b>Component Groups</b>: 22<br>
@@ -1970,8 +1970,8 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-kicad1">8.0000</td>
    <td class="td-kicad1">14.0000</td>
    <td class="td-user1">6</td>
-   <td class="td-user1">,GND,+5V</td>
-   <td class="td-user1">,GND,+5V</td>
+   <td class="td-user1">,+5V,GND</td>
+   <td class="td-user1">,+5V,GND</td>
    <td class="td-user1">Default</td>
    <td class="td-kicad1">1</td>
   </tr>
@@ -2003,7 +2003,7 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-kicad0">4.2400</td>
    <td class="td-kicad0">6.7800</td>
    <td class="td-user0">7</td>
-   <td class="td-user0">/MOSI2,GND,+5V,/SCK2,/RESET2,/MISO2</td>
+   <td class="td-user0">/SCK2,/RESET2,+5V,/MOSI2,GND,/MISO2</td>
    <td class="td-user0">MISO2</td>
    <td class="td-user0">Default</td>
    <td class="td-kicad0">1</td>
@@ -2036,8 +2036,8 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-kicad1">1.7000</td>
    <td class="td-kicad1">11.8600</td>
    <td class="td-user1">8</td>
-   <td class="td-user1">Net-(J3-Pin_5),Net-(J3-Pin_3),Net-(J3-Pin_1),Net-(J3-Pin_2),Net-(J3-Pin_4)</td>
-   <td class="td-user1">Net-(J3-Pin_5),Net-(J3-Pin_3),Net-(J3-Pin_1),Net-(J3-Pin_2),Net-(J3-Pin_4)</td>
+   <td class="td-user1">Net-(J3-Pin_4),Net-(J3-Pin_3),Net-(J3-Pin_5),Net-(J3-Pin_1),Net-(J3-Pin_2)</td>
+   <td class="td-user1">Net-(J3-Pin_4),Net-(J3-Pin_3),Net-(J3-Pin_5),Net-(J3-Pin_1),Net-(J3-Pin_2)</td>
    <td class="td-user1">Default</td>
    <td class="td-kicad1">1</td>
   </tr>
@@ -2069,8 +2069,8 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-kicad0">1.7000</td>
    <td class="td-kicad0">14.4000</td>
    <td class="td-user0">9</td>
-   <td class="td-user0">Net-(J6-Pin_1),Net-(J6-Pin_5),Net-(J6-Pin_6),Net-(J6-Pin_2),Net-(J6-Pin_3),Net-(J6-Pin_4)</td>
-   <td class="td-user0">Net-(J6-Pin_1),Net-(J6-Pin_5),Net-(J6-Pin_6),Net-(J6-Pin_2),Net-(J6-Pin_3),Net-(J6-Pin_4)</td>
+   <td class="td-user0">Net-(J6-Pin_1),Net-(J6-Pin_5),Net-(J6-Pin_4),Net-(J6-Pin_6),Net-(J6-Pin_2),Net-(J6-Pin_3)</td>
+   <td class="td-user0">Net-(J6-Pin_1),Net-(J6-Pin_5),Net-(J6-Pin_4),Net-(J6-Pin_6),Net-(J6-Pin_2),Net-(J6-Pin_3)</td>
    <td class="td-user0">Default</td>
    <td class="td-kicad0">1</td>
   </tr>
@@ -2091,7 +2091,7 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-gen1">t1(1)</td>
    <td class="td-empty1"></td>
    <td class="td-empty1"></td>
-   <td class="td-kicad1">Excluded from simulation</td>
+   <td class="td-empty1"></td>
    <td class="td-kicad1">166.2430</td>
    <td class="td-kicad1">-91.4400</td>
    <td class="td-kicad1">180.0000</td>
@@ -2135,8 +2135,8 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-kicad0">2.8500</td>
    <td class="td-kicad0">1.4000</td>
    <td class="td-user0">11</td>
-   <td class="td-user0">GND,/DTR</td>
-   <td class="td-user0">DTR</td>
+   <td class="td-user0">/DTR,GND</td>
+   <td class="td-user0">DTR,GND</td>
    <td class="td-user0">Default</td>
    <td class="td-kicad0">3</td>
   </tr>
@@ -2201,8 +2201,8 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-kicad0">10.1000</td>
    <td class="td-kicad0">10.1000</td>
    <td class="td-user0">13</td>
-   <td class="td-user0">GND,/DTR,/TXLED,Net-(J3-Pin_2),Net-(U1-D+),Net-(J6-Pin_4),VBUS,/RXLED,Net-(J4-Pin_3),Net-(J3-Pin_5),Net-(J3-Pin_1),Net-(J6-Pin_5),Net-(J6-Pin_6),Net-(J6-Pin_3),Net-(J4-Pin_2),Earth,Net-(U1-D-),/MOSI2,Net-(U1-UCAP),Net-(J3-Pin_3),unconnected-(U1-PB0-Pad14),+5V,/SCK2,/RESET2,Net-(U1-PC0{slash}XTAL2),Net-(J3-Pin_4),Net-(U1-XTAL1),Net-(J4-Pin_4),Net-(J4-Pin_1),Net-(J6-Pin_2),/MISO2</td>
-   <td class="td-user0">MISO2</td>
+   <td class="td-user0">/RESET2,/MOSI2,Net-(U1-UCAP),GND,/TXLED,Net-(U1-D+),/SCK2,Net-(U1-PC0{slash}XTAL2),Net-(U1-D-),VBUS,Net-(J3-Pin_1),Net-(J3-Pin_2),Net-(J4-Pin_3),+5V,Net-(J4-Pin_2),Earth,Net-(J6-Pin_4),Net-(J6-Pin_6),unconnected-(U1-PB0-Pad14),/RXLED,Net-(J6-Pin_3),Net-(J6-Pin_5),Net-(J3-Pin_4),Net-(J3-Pin_3),Net-(J3-Pin_5),Net-(J4-Pin_1),Net-(J6-Pin_2),/DTR,/MISO2,Net-(U1-XTAL1),Net-(J4-Pin_4)</td>
+   <td class="td-user0">MISO2,Net-(U1-XTAL1),Net-(J4-Pin_4)</td>
    <td class="td-user0">Default</td>
    <td class="td-kicad0">1</td>
   </tr>
@@ -2274,8 +2274,8 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-kicad0">2.8500</td>
    <td class="td-kicad0">1.4000</td>
    <td class="td-user0">1</td>
-   <td class="td-user0">GND,Net-(U1-XTAL1)</td>
-   <td class="td-user0">GND,Net-(U1-XTAL1)</td>
+   <td class="td-user0">Net-(U1-XTAL1),GND</td>
+   <td class="td-user0">Net-(U1-XTAL1),GND</td>
    <td class="td-user0">Default</td>
    <td class="td-kicad0">2</td>
   </tr>
@@ -2307,8 +2307,8 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-kicad1">5.4000</td>
    <td class="td-kicad1">3.4000</td>
    <td class="td-user1">2</td>
-   <td class="td-user1">Net-(J2-VBUS),VBUS</td>
-   <td class="td-user1">Net-(J2-VBUS),VBUS</td>
+   <td class="td-user1">VBUS,Net-(J2-VBUS)</td>
+   <td class="td-user1">VBUS,Net-(J2-VBUS)</td>
    <td class="td-user1">Default</td>
    <td class="td-kicad1">1</td>
   </tr>
@@ -2340,8 +2340,8 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-kicad0">2.8500</td>
    <td class="td-kicad0">1.4000</td>
    <td class="td-user0">3</td>
-   <td class="td-user0">Net-(J2-Shield),Earth</td>
-   <td class="td-user0">Net-(J2-Shield),Earth</td>
+   <td class="td-user0">Earth,Net-(J2-Shield)</td>
+   <td class="td-user0">Earth,Net-(J2-Shield)</td>
    <td class="td-user0">Default</td>
    <td class="td-kicad0">1</td>
   </tr>
@@ -2373,8 +2373,8 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-kicad1">4.2400</td>
    <td class="td-kicad1">4.2400</td>
    <td class="td-user1">4</td>
-   <td class="td-user1">Net-(J4-Pin_4),Net-(J4-Pin_1),Net-(J4-Pin_2),Net-(J4-Pin_3)</td>
-   <td class="td-user1">Net-(J4-Pin_4),Net-(J4-Pin_1),Net-(J4-Pin_2),Net-(J4-Pin_3)</td>
+   <td class="td-user1">Net-(J4-Pin_1),Net-(J4-Pin_3),Net-(J4-Pin_4),Net-(J4-Pin_2)</td>
+   <td class="td-user1">Net-(J4-Pin_1),Net-(J4-Pin_3),Net-(J4-Pin_4),Net-(J4-Pin_2)</td>
    <td class="td-user1">Default</td>
    <td class="td-kicad1">1</td>
   </tr>
@@ -2406,8 +2406,8 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-kicad0">7.6600</td>
    <td class="td-kicad0">16.0000</td>
    <td class="td-user0">5</td>
-   <td class="td-user0">Net-(J2-VBUS),Net-(J2-D+),Net-(J2-D-),Net-(J2-Shield),Earth</td>
-   <td class="td-user0">Net-(J2-VBUS),Net-(J2-D+),Net-(J2-D-),Net-(J2-Shield),Earth</td>
+   <td class="td-user0">Net-(J2-D-),Earth,Net-(J2-Shield),Net-(J2-D+),Net-(J2-VBUS)</td>
+   <td class="td-user0">Net-(J2-D-),Earth,Net-(J2-Shield),Net-(J2-D+),Net-(J2-VBUS)</td>
    <td class="td-user0">Default</td>
    <td class="td-kicad0">1</td>
   </tr>
@@ -2472,8 +2472,8 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-kicad0">2.8500</td>
    <td class="td-kicad0">1.4000</td>
    <td class="td-user0">7</td>
-   <td class="td-user0">Net-(U1-PC0{slash}XTAL2),Net-(U1-XTAL1)</td>
-   <td class="td-user0">Net-(U1-PC0{slash}XTAL2),Net-(U1-XTAL1)</td>
+   <td class="td-user0">Net-(U1-XTAL1),Net-(U1-PC0{slash}XTAL2)</td>
+   <td class="td-user0">Net-(U1-XTAL1),Net-(U1-PC0{slash}XTAL2)</td>
    <td class="td-user0">Default</td>
    <td class="td-kicad0">1</td>
   </tr>
@@ -2538,8 +2538,8 @@ AElFTkSuQmCC" alt="Logo" width="370" height="200">
    <td class="td-kicad0">6.0000</td>
    <td class="td-kicad0">2.4000</td>
    <td class="td-user0">9</td>
-   <td class="td-user0">Net-(U1-PC0{slash}XTAL2),Net-(U1-XTAL1)</td>
-   <td class="td-user0">Net-(U1-PC0{slash}XTAL2),Net-(U1-XTAL1)</td>
+   <td class="td-user0">Net-(U1-XTAL1),Net-(U1-PC0{slash}XTAL2)</td>
+   <td class="td-user0">Net-(U1-XTAL1),Net-(U1-PC0{slash}XTAL2)</td>
    <td class="td-user0">Default</td>
    <td class="td-kicad0">1</td>
   </tr>
