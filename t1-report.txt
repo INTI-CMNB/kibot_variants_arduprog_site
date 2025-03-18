@@ -134,3 +134,5 @@ Note: this is just an approximation to the theoretical value. Margins of the sol
 
 ![PCB Front documentation](PCB/SVG/t1-assembly_page_08.svg){ width=16.5cm height=11.7cm }
 
+![PCB Assembly](PCB/SVG/t1-assembly_page_09.svg){ width=16.5cm height=11.7cm }
+

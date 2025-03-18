@@ -3297,7 +3297,7 @@
     (property "Footprint" "Connector_USB:USB_B_Lumberg_2411_02_Horizontal" (at 76.2 109.22 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (property "Datasheet" " ~" (at 76.2 109.22 0)
+    (property "Datasheet" "~" (at 76.2 109.22 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
     (property "Description" "USB Type B connector" (at 72.39 107.95 0)

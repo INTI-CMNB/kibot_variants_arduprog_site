@@ -1,8 +1,8 @@
 {
     "$schema": "https://schemas.kicad.org/erc.v1.json",
     "coordinate_units": "mm",
-    "date": "2024-10-29T13:27:13+0000",
-    "kicad_version": "8.0.5",
+    "date": "2025-03-18T16:06:59+0000",
+    "kicad_version": "8.0.8",
     "sheets": [
         {
             "path": "/",
