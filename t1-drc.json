@@ -1,8 +1,8 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2025-03-18T16:57:19+0000",
-    "kicad_version": "9.0.0",
+    "date": "2025-04-03T15:33:33+0000",
+    "kicad_version": "9.0.1",
     "schematic_parity": [],
     "source": "t1.kicad_pcb",
     "unconnected_items": [],

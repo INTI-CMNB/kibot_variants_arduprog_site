@@ -1,4 +1,12 @@
-ERC report (2025-03-18T16:57:20+0000, Encoding UTF8)
+ERC report (2025-04-03T15:33:34+0000, Encoding UTF8)
 
 ***** Sheet /
- ** ERC messages: 0  Errors 0  Warnings 0
+[lib_symbol_mismatch]: Symbol 'Varistor' doesn't match copy in library 'Device'
+    ; warning
+    @(0.9144 mm, 1.1938 mm): Symbol VR1 [Varistor]
+
+[lib_symbol_mismatch]: Symbol 'Varistor' doesn't match copy in library 'Device'
+    ; warning
+    @(1.0033 mm, 1.1938 mm): Symbol VR2 [Varistor]
+
+ ** ERC messages: 2  Errors 0  Warnings 2

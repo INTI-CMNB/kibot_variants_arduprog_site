@@ -1,8 +1,8 @@
 (export (version "E")
   (design
     (source "/__w/kibot_variants_arduprog/kibot_variants_arduprog/t1.kicad_sch")
-    (date "2025-03-18T17:02:03+0000")
-    (tool "Eeschema 9.0.0")
+    (date "2025-04-03T15:38:06+0000")
+    (tool "Eeschema 9.0.1")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
         (title "Arduino UNO programmer")
